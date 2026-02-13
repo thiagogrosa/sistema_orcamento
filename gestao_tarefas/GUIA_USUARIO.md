@@ -44,7 +44,7 @@ Email do cliente → Sistema → Tarefa no Asana
 
 ```bash
 # 1. Abrir terminal no diretório do projeto
-cd ~/dev/tools/armant/gestao-orcamentos
+cd ~/dev/tools/armant/gestao_tarefas
 
 # 2. Ativar ambiente virtual
 source venv/bin/activate

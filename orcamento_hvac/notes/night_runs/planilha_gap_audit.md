@@ -1,7 +1,7 @@
 # Gap Audit — HANDOFF vs Estado Atual
 
 Data/hora da auditoria: 2026-02-12 03:20 (America/Sao_Paulo)
-Repositório: `/data/.openclaw/workspace/planilha`
+Repositório: `/data/.openclaw/workspace/sistema_orcamento_temp/orcamento_hvac`
 Branch auditada: `feature/validacao-avancada-composicoes`
 
 ## Evidências rápidas

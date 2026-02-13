@@ -37,7 +37,7 @@ Este sistema reduz drasticamente o tempo e custo de processamento de demandas de
 ```bash
 # Clone o repositório
 git clone [repo_url]
-cd gestao-orcamentos
+cd gestao_tarefas
 
 # Crie ambiente virtual
 python3 -m venv venv
@@ -110,7 +110,7 @@ python src/gmail_client.py --test --query "from:cliente@empresa.com"
 ## 🏗️ Estrutura do Projeto
 
 ```
-gestao-orcamentos/
+gestao_tarefas/
 ├── README.md                       # Este arquivo
 ├── ARQUITETURA.md                  # Arquitetura técnica
 ├── PLANO_IMPLEMENTACAO.md          # Plano de implementação

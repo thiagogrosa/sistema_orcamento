@@ -49,8 +49,8 @@ Implementação por etapas concluída com validação objetiva.
 
 ## Evidências
 - `runtime/verification/verification_report_v1.md`
-- `planilha/notes/implementation_stage7_go_gate_2026-02-13.md`
-- `planilha/notes/rollout_checklist_v1_2026-02-13.md`
+- `orcamento_hvac/notes/implementation_stage7_go_gate_2026-02-13.md`
+- `orcamento_hvac/notes/rollout_checklist_v1_2026-02-13.md`
 
 ## Próximo passo sugerido
 Abrir PR da branch `feature/system-implementation-15min-sprints` com este resumo e executar rollout checklist controlado.

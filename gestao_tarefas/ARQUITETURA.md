@@ -942,25 +942,25 @@ def _is_new_pdf(self, demanda_id: str, filename: str) -> bool:
 
 ```bash
 # Pipeline completo
-gestao-orcamentos processar-pasta 26_062 [--confirm] [--dry-run]
+gestao_tarefas processar-pasta 26_062 [--confirm] [--dry-run]
 
 # Etapas individuais
-gestao-orcamentos buscar-emails 26_062 --query "JBS Seara"
-gestao-orcamentos preparar-dados 26_062
-gestao-orcamentos extrair-dados 26_062/dados_preparados.md
-gestao-orcamentos criar-tarefa 26_062/orcamento.json
+gestao_tarefas buscar-emails 26_062 --query "JBS Seara"
+gestao_tarefas preparar-dados 26_062
+gestao_tarefas extrair-dados 26_062/dados_preparados.md
+gestao_tarefas criar-tarefa 26_062/orcamento.json
 
 # Sincronização Drive
-gestao-orcamentos sync-drive 26_062
-gestao-orcamentos sync-drive --all
+gestao_tarefas sync-drive 26_062
+gestao_tarefas sync-drive --all
 
 # Consultas
-gestao-orcamentos listar-tarefas --urgente
-gestao-orcamentos ver-tarefa 26_004
+gestao_tarefas listar-tarefas --urgente
+gestao_tarefas ver-tarefa 26_004
 
 # Utilitários
-gestao-orcamentos validar-json orcamento.json
-gestao-orcamentos estatisticas --periodo semana
+gestao_tarefas validar-json orcamento.json
+gestao_tarefas estatisticas --periodo semana
 ```
 
 **Pipeline do Comando Principal:**
@@ -1085,7 +1085,7 @@ def setup_logger(verbose: bool):
         handlers=[RichHandler(rich_tracebacks=True)]
     )
 
-    return logging.getLogger("gestao-orcamentos")
+    return logging.getLogger("gestao_tarefas")
 
 def print_relatorio(demanda_id, task_gid, tokens, dry_run):
     """Imprime relatório final formatado."""
@@ -1753,7 +1753,7 @@ def chamada_api_com_timeout():
 import logging
 from rich.logging import RichHandler
 
-logger = logging.getLogger("gestao-orcamentos")
+logger = logging.getLogger("gestao_tarefas")
 
 try:
     processar_demanda(demanda_id)
@@ -2152,7 +2152,7 @@ DRY_RUN=false
 ```bash
 # 1. Clonar repositório
 git clone [repo_url]
-cd gestao-orcamentos
+cd gestao_tarefas
 
 # 2. Criar ambiente virtual
 python3 -m venv venv

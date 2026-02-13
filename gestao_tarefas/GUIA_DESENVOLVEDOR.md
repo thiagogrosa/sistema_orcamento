@@ -90,7 +90,7 @@ pytest-cov
 ```bash
 # Clonar repositório
 git clone [repo_url]
-cd gestao-orcamentos
+cd gestao_tarefas
 
 # Criar ambiente virtual
 python3 -m venv venv
