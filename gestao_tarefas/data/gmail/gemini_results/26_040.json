@@ -1,0 +1,36 @@
+{
+  "demanda_id": "26_040",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Almeida Junior Shopping Centers S.A. (Balneário Shopping)",
+    "cnpj": "09.002.565/0001-82",
+    "contato_nome": "Vinicius",
+    "contato_telefone": null,
+    "contato_email": "licitacao@armant.com.br",
+    "endereco": "Avenida Santa Catarina, nº 1, Bairro Estados, Balneário Camboriú - SC, CEP: 88339-005",
+    "tipo_servico": "manutencao",
+    "detalhes": "Visita técnica realizada por Vinicius para levantamento de escopo no Balneário Shopping.",
+    "prazo": null,
+    "porte": "grande",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 3,
+  "fontes": [
+    {
+      "data": "2026-01-26",
+      "assunto": "Convite atualizado: VISITA TÉCNICA VINICIUS - ALMEIDA JUNIOR - SHOPPING BALNEÁRIO AV. SANTA CATARINA",
+      "de": "Débora Fernandes <licitacao@armant.com.br>"
+    },
+    {
+      "data": "2026-01-22",
+      "assunto": "Convite atualizado: VISITA TÉCNICA VINICIUS - ALMEIDA JUNIOR - SHOPPING BALNEÁRIO AV. SANTA CATARINA",
+      "de": "Débora Fernandes <licitacao@armant.com.br>"
+    },
+    {
+      "data": "2026-01-21",
+      "assunto": "Convite: VISITA TÉCNICA VINICIUS - ALMEIDA JUNIOR - SHOPPING BALNEÁRIO AV. SANTA CATARINA",
+      "de": "Débora Fernandes <licitacao@armant.com.br>"
+    }
+  ],
+  "timestamp": "2026-02-13T09:54:46.370491"
+}

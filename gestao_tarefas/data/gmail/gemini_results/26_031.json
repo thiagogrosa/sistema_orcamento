@@ -1,0 +1,23 @@
+{
+  "demanda_id": "26_031",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "AMBAR LOUNGE POA ESPACO VIP LTDA",
+    "cnpj": "40.160.155/0002-90",
+    "contato_nome": "Pascale Grewsmuhl",
+    "contato_telefone": "+55 (51) 33582656",
+    "contato_email": "POANutricao@ambaarlounge.com",
+    "endereco": "Av. Severo Dullius, 90010 - Aeroporto Internacional Porto Alegre Salgado Filho, Porto Alegre - RS",
+    "tipo_servico": "manutencao",
+    "detalhes": "Renovação do PMOC das salas VIP internacional e doméstica. Nota: Cliente solicitou cancelamento da solicitação em 15/01/2026.",
+    "prazo": "02/2026",
+    "porte": "medio",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Gmail: Thread 'Renovação do PMOC - AMBAAR POA Doméstica e Internacional'",
+    "Google Search: Razão Social e CNPJ da unidade Ambaar Lounge POA"
+  ],
+  "timestamp": "2026-02-13T09:20:47.930774"
+}

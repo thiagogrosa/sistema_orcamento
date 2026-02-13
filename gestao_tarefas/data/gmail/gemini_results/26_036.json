@@ -1,0 +1,25 @@
+{
+  "demanda_id": "26_036",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Caixa de Assistência dos Funcionários do Banco do Brasil (CASSI)",
+    "cnpj": "33.719.485/0001-27",
+    "contato_nome": "Gabrielle Esteves da Silva / Wesley Magalhães de Araujo",
+    "contato_telefone": "(51) 2139-8076 / (61) 3212-5147",
+    "contato_email": "gabrielle.silva@cassi.com.br / wesley.araujo@cassi.com.br",
+    "endereco": "Rua Gomes Jardim, nº 291, Salas 101 e 102 e 903 a 906, Ed. Medplex, Porto Alegre/RS",
+    "tipo_servico": "manutencao",
+    "detalhes": "Relocalização e unificação das unidades CliniCASSI POA Norte e Sul para o Ed. Medplex. O serviço envolve desinstalação de equipamentos, reinstalação de duas unidades de 24.000 BTUs em outras cidades (Caxias e Passo Fundo) e instalação de novos equipamentos de 12.000 e 24.000 BTUs na nova sede.",
+    "prazo": "10/02/2026",
+    "porte": "medio",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Thiago Macari sobre proposta comercial (12/02/2026)",
+    "Email de Wesley Magalhães de Araujo sobre relocalização de unidades (02/02/2026)",
+    "Email de Gabrielle Esteves da Silva sobre especificações técnicas (03/02/2026)",
+    "Busca Google para CNPJ da CASSI"
+  ],
+  "timestamp": "2026-02-13T09:11:40.342393"
+}

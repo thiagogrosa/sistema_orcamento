@@ -1,0 +1,23 @@
+{
+  "demanda_id": "26_027",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "FIERGS - UO IST MADEIRA E MOBILIARIO (CETEMO)",
+    "cnpj": "03.775.069/0034-43",
+    "contato_nome": "Jamile Moraes Cruz",
+    "contato_telefone": "(54) 3449 7500 / (51) 3347.8666",
+    "contato_email": "jamile.cruz@fiergs.org.br",
+    "endereco": "Av. Presidente Costa e Silva, 571 – B Planalto, Bento Gonçalves - RS, CEP 95.700-000",
+    "tipo_servico": "instalacao",
+    "detalhes": "Instalação de 5 equipamentos novos (3x 32/36k Piso Teto, 1x 46/48k Piso Teto, 1x 18k Hi-Wall) e 2 usados (1x 36k Piso Teto Elgin, 1x 12k Hi-Wall Electrolux). O serviço deve ser executado na VIPRADO Indústria e Comércio de Vidros (Antônio Prado - RS).",
+    "prazo": null,
+    "porte": "medio",
+    "origem_dados": "gmail"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Jamile Moraes Cruz (FIERGS) solicitando cotação em 12/01/2026",
+    "Confirmação de abertura de orçamento 26_027 por Débora Fernandes"
+  ],
+  "timestamp": "2026-02-13T09:19:23.061482"
+}

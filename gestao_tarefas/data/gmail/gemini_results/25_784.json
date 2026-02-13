@@ -1,0 +1,33 @@
+{
+  "demanda_id": "25_784",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Melnick Arcádia Urbanismo LTDA",
+    "cnpj": "21.364.565/0001-28",
+    "contato_nome": "Andressa",
+    "contato_telefone": "(51) 3016-9000",
+    "contato_email": "notasmkturbanizadora@mearcadia.com.br",
+    "endereco": "Rua Carlos Trein Filho, 599, Sala 301, Auxiliadora, Porto Alegre - RS, 90450-120",
+    "tipo_servico": "manutencao",
+    "detalhes": "Serviço de limpeza corretiva em PDV (Ponto de Venda) para resolução de problema.",
+    "prazo": null,
+    "porte": "medio",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    {
+      "data": "2026-01-27",
+      "assunto": "Re: 25/784 MELNICK EVEN PDV CORRETIVA",
+      "de": "orcamentos3@armant.com.br",
+      "resumo": "Patrick Bitencourt informa à Andressa que o serviço de limpeza deve resolver o problema."
+    },
+    {
+      "data": "2026-01-26",
+      "assunto": "RE: 25/784 MELNICK EVEN PDV CORRETIVA",
+      "de": "notasmkturbanizadora@mearcadia.com.br",
+      "resumo": "Email de contato da Marketing Urbanizadora (Melnick Arcádia)."
+    }
+  ],
+  "timestamp": "2026-02-13T09:57:34.659513"
+}

@@ -1,0 +1,25 @@
+{
+  "demanda_id": "26_029",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "TRIBUNAL REGIONAL ELEITORAL DO RIO GRANDE DO SUL (TRE-RS)",
+    "cnpj": "05.885.797/0001-75",
+    "contato_nome": "Alexandre Farina Marcon / Carolina",
+    "contato_telefone": "(51) 3294-9561 / (54) 99914-3238 / (53) 99991-1385",
+    "contato_email": "alexandremarcon@tre-rs.jus.br / zon123@tre-rs.jus.br",
+    "endereco": "Av. José Bonifácio, n° 1968, sala 104, Pedro Osório / RS",
+    "tipo_servico": "instalacao",
+    "detalhes": "Instalação de climatização no Cartório Eleitoral de Pedro Osório. Orçamento de R$ 3.464,82 aprovado em 16/01/2026. Serviço já reportado como finalizado pelo cartório em 05/02/2026.",
+    "prazo": "Finalizado",
+    "porte": "pequeno",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email: DEMANDA APROVADA - 26/029 TRE PEDRO OSÓRIO - 26/01 (16/01/2026)",
+    "Email: Orçamento aprovado - Pedro Osório (16/01/2026)",
+    "Email: Sobre as pendências (05/02/2026)",
+    "Google Search: CNPJ TRE-RS"
+  ],
+  "timestamp": "2026-02-13T09:25:20.741077"
+}

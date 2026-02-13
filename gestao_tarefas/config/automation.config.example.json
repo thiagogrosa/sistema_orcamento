@@ -1,0 +1,31 @@
+{
+  "_comment": "Configuração para automação de processamento",
+  "_comment2": "Copie para config.json e ajuste conforme necessário",
+
+  "dry_run": false,
+  "verbose": false,
+
+  "processar_automatico": true,
+  "max_demandas_por_vez": 5,
+
+  "horarios_processamento": [
+    "09:00",
+    "14:00",
+    "17:00"
+  ],
+
+  "notificar_email": false,
+  "email_destino": "orcamentos2@armant.com.br",
+
+  "dias_verificar_emails": 1,
+
+  "sincronizacao": {
+    "ativa": true,
+    "intervalo_horas": 1
+  },
+
+  "logging": {
+    "level": "INFO",
+    "manter_logs_dias": 30
+  }
+}

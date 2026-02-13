@@ -1,0 +1,24 @@
+{
+  "demanda_id": "26_047",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Banco do Estado do Rio Grande do Sul S.A. (Banrisul)",
+    "cnpj": "92.702.067/0001-96",
+    "contato_nome": "Henrique Bajerski / Eng. Eduardo Dorneles",
+    "contato_telefone": "(51) 3215-3778",
+    "contato_email": "Engenharia_Mecanica_Agencias@banrisul.com.br",
+    "endereco": "Rua Antônio José Carlos, 7 - Centro, CEP: 95560-000, Morrinhos do Sul - RS",
+    "tipo_servico": "manutencao",
+    "detalhes": "Atualização de laudo técnico do PA Morrinhos do Sul. Necessário retificar informações sobre máquina que não consta como condenada nas OS mensais, atualizando fotos, descrições e textos para o equipamento correto.",
+    "prazo": "Urgente (solicitação em 09/02/2026)",
+    "porte": "pequeno",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Patrick Bitencourt (09/02/2026) com encaminhamento da Engenharia Mecânica do Banrisul",
+    "Pesquisa Google para endereço da agência em Morrinhos do Sul",
+    "Informação de CNPJ institucional do Banrisul"
+  ],
+  "timestamp": "2026-02-12T20:56:43.717040"
+}

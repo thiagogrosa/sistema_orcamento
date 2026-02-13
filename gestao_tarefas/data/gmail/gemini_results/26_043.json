@@ -1,0 +1,23 @@
+{
+  "demanda_id": "26_043",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A. (Banrisul)",
+    "cnpj": "92.702.067/0001-96",
+    "contato_nome": "Henrique Bajerski / Eduardo Dorneles",
+    "contato_telefone": "(51) 3215 3778",
+    "contato_email": "E38190@bergs.banrisul.com.br / eduardo_dorneles@banrisul.com.br",
+    "endereco": "Av. Vicente Pigatto, 389, Centro, Faxinal do Soturno - RS, 97220-000",
+    "tipo_servico": "manutencao",
+    "detalhes": "Atualização de planilha orçamentária para instalação/manutenção de ar condicionado built-in de 36.000 BTU/h (ajustado para 35.000 BTU/h conforme LPU Região 5, código 1.2.1.3.66). Troca de contrapropostas entre Armant e Unidade de Engenharia do Banrisul.",
+    "prazo": null,
+    "porte": "pequeno",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Gmail: Thread '26/043 BANRISUL AG FAXINAL DO SOTURNO' com Patrick Bitencourt e Henrique Bajerski",
+    "Google Search: Localização e dados cadastrais da agência Banrisul em Faxinal do Soturno"
+  ],
+  "timestamp": "2026-02-13T09:42:45.761910"
+}
