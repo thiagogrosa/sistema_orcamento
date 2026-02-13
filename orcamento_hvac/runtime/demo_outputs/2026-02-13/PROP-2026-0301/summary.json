@@ -1,0 +1,11 @@
+{
+  "proposal_id": "PROP-2026-0301",
+  "final_price": 676944.13,
+  "total_cost": 515866.0,
+  "multiplier": 1.3122,
+  "documents": [
+    "01_cliente_proposta.md",
+    "02_registro_orcamento.md",
+    "03_pacote_execucao.md"
+  ]
+}
