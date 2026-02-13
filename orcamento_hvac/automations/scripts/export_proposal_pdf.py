@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 ROOT = Path(__file__).resolve().parents[2]
-GEMINI_ROOT = ROOT.parent / "gemini_hvac_layout"
+GEMINI_ROOT = ROOT.parent / "gerador_propostas"
 
 
 def _build_precificado_from_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -16,7 +16,7 @@ def _build_precificado_from_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
     project_title = payload.get("project_title", "Projeto HVAC")
     scope = payload.get("scope_summary", "Escopo não informado")
 
-    # Estrutura mínima compatível com gerador de PDF do gemini_hvac_layout
+    # Estrutura mínima compatível com gerador de PDF do gerador_propostas
     return {
         "projeto": project_title,
         "cliente": customer,
@@ -76,7 +76,7 @@ def export_pdf(payload: Dict[str, Any], output_pdf_path: str | None = None) -> D
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("usage: export_proposal_pdf_via_gemini_hvac_layout.py <payload.json> [output.pdf]")
+        print("usage: export_proposal_pdf_via_gerador_propostas.py <payload.json> [output.pdf]")
         raise SystemExit(1)
 
     payload_path = Path(sys.argv[1])
