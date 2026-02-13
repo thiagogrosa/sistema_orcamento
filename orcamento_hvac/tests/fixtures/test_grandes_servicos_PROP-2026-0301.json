@@ -1,0 +1,72 @@
+{
+  "proposal_id": "PROP-2026-0301",
+  "customer": {
+    "name": "Empresa Grandes Serviços Ltda",
+    "cnpj": "12.345.678/0001-90",
+    "contact": "Carlos Eduardo Silva",
+    "email": "carlos.eduardo@grandesservicos.com.br",
+    "phone": "51 99876-5432"
+  },
+  "project": {
+    "title": "Projeto de Climatização - Escritório Corporativo",
+    "location": "Porto Alegre/RS",
+    "objective": "Instalaçao de sistema de ar-condicionado VRF para escritório de 800m² com 12 ambientes",
+    "deadline_days": 45
+  },
+  "materials": [
+    {"code": "EQP_VRF_48K", "description": "Sistema VRF 48.000 BTUs Indoor", "unit": "un", "qty": 12, "unit_cost": 18500.0},
+    {"code": "EQP_VRF_OUTDOOR", "description": "Unidade externa VRF 60.000 BTUs", "unit": "un", "qty": 2, "unit_cost": 45000.0},
+    {"code": "TUB_14_FLEX", "description": "Tubo cobre 1/4\" flexível", "unit": "m", "qty": 350, "unit_cost": 18.0},
+    {"code": "TUB_38_FLEX", "description": "Tubo cobre 3/8\" flexível", "unit": "m", "qty": 420, "unit_cost": 28.0},
+    {"code": "TUB_12_FLEX", "description": "Tubo cobre 1/2\" flexível", "unit": "m", "qty": 180, "unit_cost": 42.0},
+    {"code": "TUB_58_FLEX", "description": "Tubo cobre 5/8\" flexível", "unit": "m", "qty": 240, "unit_cost": 55.0},
+    {"code": "ISO_14_ELA_E9", "description": "Isolamento elastomérico 1/4\" esp.9mm", "unit": "m", "qty": 350, "unit_cost": 8.0},
+    {"code": "ISO_38_ELA_E9", "description": "Isolamento elastomérico 3/8\" esp.9mm", "unit": "m", "qty": 420, "unit_cost": 10.0},
+    {"code": "ISO_12_ELA_E9", "description": "Isolamento elastomérico 1/2\" esp.9mm", "unit": "m", "qty": 180, "unit_cost": 12.0},
+    {"code": "ISO_58_ELA_E9", "description": "Isolamento elastomérico 5/8\" esp.9mm", "unit": "m", "qty": 240, "unit_cost": 14.0},
+    {"code": "CAB_COM", "description": "Cabo comunicação 2x0,75mm²", "unit": "m", "qty": 500, "unit_cost": 4.5},
+    {"code": "CAB_PP_25", "description": "Cabo PP 3x2,5mm²", "unit": "m", "qty": 300, "unit_cost": 12.0},
+    {"code": "CAB_PP_40", "description": "Cabo PP 3x4mm²", "unit": "m", "qty": 150, "unit_cost": 18.0},
+    {"code": "COND_CORR_34", "description": "Eletroduto corrugado 3/4\"", "unit": "m", "qty": 200, "unit_cost": 8.0},
+    {"code": "COND_CORR_100", "description": "Eletroduto corrugado 1\"", "unit": "m", "qty": 100, "unit_cost": 12.0},
+    {"code": "DISJ_M_20", "description": "Disjuntor monopolar 20A", "unit": "un", "qty": 14, "unit_cost": 25.0},
+    {"code": "DISJ_B_32", "description": "Disjuntor bipolar 32A", "unit": "un", "qty": 4, "unit_cost": 65.0},
+    {"code": "DRN_CRIS_34", "description": "Mangueira cristal 3/4\"", "unit": "m", "qty": 120, "unit_cost": 6.0},
+    {"code": "SUP_MF_600", "description": "Suporte mão francesa 600mm", "unit": "par", "qty": 24, "unit_cost": 85.0},
+    {"code": "SUP_BUCHA", "description": "Bucha nylon S10", "unit": "un", "qty": 144, "unit_cost": 1.5},
+    {"code": "SUP_PARF_100", "description": "Parafuso sextavado 3/8\"x100mm", "unit": "un", "qty": 144, "unit_cost": 3.5},
+    {"code": "ACA_FITA_TER", "description": "Fita isolante térmica 30m", "unit": "un", "qty": 24, "unit_cost": 15.0},
+    {"code": "ACA_FITA_ISO", "description": "Fita isolante preta 20m", "unit": "un", "qty": 24, "unit_cost": 8.0},
+    {"code": "ACA_ESPUMA", "description": "Espuma expansiva 500ml", "unit": "un", "qty": 12, "unit_cost": 22.0},
+    {"code": "GAS_R410A", "description": "Gás refrigerante R-410A", "unit": "kg", "qty": 25, "unit_cost": 180.0},
+    {"code": "SOL_PRATA", "description": "Vareta solda prata 5%", "unit": "kg", "qty": 3, "unit_cost": 450.0},
+    {"code": "SOL_FLUXO", "description": "Fluxo para solda 100g", "unit": "un", "qty": 6, "unit_cost": 35.0}
+  ],
+  "services": [
+    {"id": "SRV_ENG", "description": "Engenharia executiva e projetos", "unit": "h", "qty": 80, "unit_price": 190.0},
+    {"id": "SRV_INST_HW", "description": "Instalação unidades internas Hi-Wall", "unit": "un", "qty": 12, "unit_price": 850.0},
+    {"id": "SRV_INST_OUT", "description": "Instalação unidade externa", "unit": "un", "qty": 2, "unit_price": 2200.0},
+    {"id": "SRV_TUB_LF", "description": "Instalação linha frigorígena", "unit": "m", "qty": 1190, "unit_price": 45.0},
+    {"id": "SRV_ISO", "description": "Aplicação de isolamento térmico", "unit": "m", "qty": 1190, "unit_price": 18.0},
+    {"id": "SRV_ELE", "description": "Instalaçao elétrica e disjuntores", "unit": "h", "qty": 40, "unit_price": 135.0},
+    {"id": "SRV_DREN", "description": "Sistema de dreno", "unit": "m", "qty": 120, "unit_price": 32.0},
+    {"id": "SRV_TESTE", "description": "Teste de estanqueidade", "unit": "h", "unit_price": 210.0, "qty": 16},
+    {"id": "SRV_VACUO", "description": "Vácuo e carga de gás", "unit": "h", "qty": 24, "unit_price": 195.0},
+    {"id": "SRV_COM", "description": "Comissionamento e ajustes", "unit": "h", "qty": 32, "unit_price": 210.0},
+    {"id": "SRV_TREIN", "description": "Treinamento operacional", "unit": "h", "qty": 8, "unit_price": 180.0}
+  ],
+  "commercial": {
+    "tax_pct": 9.5,
+    "overhead_pct": 7.0,
+    "margin_pct": 12.0,
+    "payment_terms": "30% pedido, 40% entrega de equipamentos, 30% aceite final",
+    "warranty": "12 meses para serviços e equipamentos",
+    "validity_days": 15
+  },
+  "exclusions": [
+    "Obras civis (paredes, tetos, piso)",
+    "Infraestrutura elétrica externa ao quadro",
+    "Permissões e Alvarás de órgãos públicos",
+    "Instalações prediais existentes"
+  ]
+}
