@@ -1,0 +1,36 @@
+# Lista de Demandas / Orçamentos
+
+- (A) Cyrela Duo Concept - Inst. VRF - 14/01/26
+- Cyrela Vista Carlos Gomes - Obra Const. 12/12/25
+- (A) CFL Tauphick - Obra Const. 14/01/26
+- Krystal (PROEE) Avora - Obra Const. VERF.
+- (A) JBS Nova Veneza - Projeto + Estim. Exec. 30/12/2025
+- (A) Instituto Cancer Infantil 03/12/25
+- Zanon Advogados 16/01/26
+- (A) Balneário Shopping (Almeida Junior Shoppings) 20/01/26
+- Porto Seguro ES
+- Easy Planning CAU/SC
+- (A) Fiergs Fancoil
+- (A) Grupo Sigel Conectiva
+- (A) Tecnopuc Limpeza / Instalação
+- (A) Semapi/RS Higienização
+- (A) Caixa Assistência Advogados
+- (A) DP-SP PMOC -> 22/01
+- (A) Hosp. Divina Providência
+- (A) BRDE PMOC
+- (A) Fiergs Bento Gonçalves
+- (A) LFDA Manutenção
+- Banrisul - Faxinal do Soturno -> OK p/ enviar
+- Dilermando de Aguiar (Laudo)
+- Santana da Boa Vista -> Portilho
+- Morrinhos do Sul
+- Medicor Instalações
+- Cassi Instalações
+- Pacaembu - Filtros
+- Bertol Marques (Novela)
+- MSC - Peça (turbina)
+- Neo bpo - PMOC
+- Juliana Abreu
+- BB Abelardo Luz
+- PROEE - Aerovip Ampliação
+- Cerâmica Porto Belo - PMOC (399 Equipamentos) Tijucas / SC | 5 funcionários

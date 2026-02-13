@@ -1,0 +1,16 @@
+﻿CODIGO;CATEGORIA;DESCRICAO;VALOR_AQUISICAO;VIDA_UTIL_HORAS;ATUALIZADO_EM;VALIDADE_DIAS
+FER_VACUO;Vácuo;Bomba de vácuo;1500.0;2000;2025-12-30;90
+FER_MANIF;Manifold;Manifold digital;800.0;3000;2025-12-30;90
+FER_SOLDA;Solda;Kit solda oxigênio/GLP;1200.0;1500;2025-12-30;90
+FER_PERF;Furação;Perfuratriz/martelete;1800.0;2500;2025-12-30;90
+FER_SERRA_65;Furação;Serra copo diamantada 65mm;180.0;150;2025-12-30;90
+FER_SERRA_80;Furação;Serra copo diamantada 80mm;220.0;150;2025-12-30;90
+FER_ESCADA;Acesso;Escada extensível 6m;800.0;3000;2025-12-30;90
+FER_ANDAIME;Acesso;Andaime cavalete (par);600.0;2000;2025-12-30;90
+FER_ESTANQ;Teste;Kit teste estanqueidade;350.0;2000;2025-12-30;90
+FER_MULT;Elétrica;Multímetro/alicate amperímetro;450.0;3000;2025-12-30;90
+FER_MANUAL;Diversos;Ferramentas manuais (conjunto);1200.0;4000;2025-12-30;90
+FER_FURAD;Furação;Furadeira de impacto;650.0;2000;2025-12-30;90
+FER_CORTA;Corte;Cortador de tubo cobre;120.0;1000;2025-12-30;90
+FER_FLANG;Dobra;Flangeador/alargador;380.0;2000;2025-12-30;90
+FER_BAL;Refrigeração;Balança digital refrigeração;280.0;2500;2025-12-30;90

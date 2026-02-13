@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "gerado_em": "2026-02-05",
+    "atualizado_em": "2026-02-07 02:17",
+    "conta_gmail": "orcamentos2@armant.com.br",
+    "total_tasks": 15,
+    "processadas": 15,
+    "encontradas": 3,
+    "parciais": 3,
+    "nao_encontradas": 0
+  },
+  "resultados": [
+    {
+      "task_id": "TASK_001",
+      "asana_id": "26_038",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Semapi RS",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385125"
+    },
+    {
+      "task_id": "TASK_002",
+      "asana_id": "26_041",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Zanon Advogados",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385140"
+    },
+    {
+      "task_id": "TASK_003",
+      "asana_id": "26_049",
+      "status": "parcial",
+      "emails_analisados": 5,
+      "dados": {
+        "cliente": "Porto Seguro - Vitória/ES",
+        "cnpj": "64.160.798/0001-11",
+        "contato_nome": null,
+        "contato_telefone": "27 98168-6629",
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": "Valores encontrados: R$ 2.927,20",
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": "pagamento de 50% na conclusão e saldo 30 dias"
+      },
+      "emails_fonte": [
+        {
+          "data": "Thu, 5 Feb 2026 13:23:51 -0300",
+          "assunto": "Re: PAGAMENTO DE TERCEIRO - OBRA PORTO SEGURO VITÓRIA/ES - ORC 26/049",
+          "de": "Eduarda Schapke <financeiro2@armant.com.br>",
+          "arquivo": "email_19c2e9e9_20260207_021723.txt"
+        },
+        {
+          "data": "Thu, 5 Feb 2026 12:00:28 -0300",
+          "assunto": "Re: PAGAMENTO DE TERCEIRO - OBRA PORTO SEGURO VITÓRIA/ES - ORC 26/049",
+          "de": "Thiago Rosa <orcamentos2@armant.com.br>",
+          "arquivo": "email_19c2e51a_20260207_021724.txt"
+        },
+        {
+          "data": "Thu, 5 Feb 2026 11:36:10 -0300",
+          "assunto": "Re: PAGAMENTO DE TERCEIRO - OBRA PORTO SEGURO VITÓRIA/ES - ORC 26/049",
+          "de": "Eduarda Schapke <financeiro2@armant.com.br>",
+          "arquivo": "email_19c2e3c0_20260207_021724.txt"
+        },
+        {
+          "data": "Thu, 5 Feb 2026 11:12:24 -0300",
+          "assunto": "Re: PAGAMENTO DE TERCEIRO - OBRA PORTO SEGURO VITÓRIA/ES - ORC 26/049",
+          "de": "Marih Santtos <obras@armant.com.br>",
+          "arquivo": "email_19c2e25d_20260207_021724.txt"
+        },
+        {
+          "data": "Thu, 5 Feb 2026 08:00:00 -0300",
+          "assunto": "Re: PAGAMENTO DE TERCEIRO - OBRA PORTO SEGURO VITÓRIA/ES - ORC 26/049",
+          "de": "Thamiris Moraes Marques <operacional@armant.com.br>",
+          "arquivo": "email_19c2d76b_20260207_021725.txt"
+        }
+      ],
+      "campos_nao_encontrados": [
+        "contato_nome",
+        "contato_email",
+        "endereco",
+        "local_servico",
+        "tipo_servico",
+        "prazo",
+        "porte",
+        "origem",
+        "licitacao"
+      ],
+      "processado_em": "2026-02-07T02:17:20.736504"
+    },
+    {
+      "task_id": "TASK_014",
+      "asana_id": "26_018",
+      "status": "encontrado",
+      "emails_analisados": 5,
+      "dados": {
+        "cliente": "Cyrela Goldsztein",
+        "cnpj": "08.074.750/0003-81",
+        "contato_nome": "Emilly Martins Fagundes",
+        "contato_telefone": null,
+        "contato_email": "Emilly.Fagundes@cyrela.com.br",
+        "endereco": "Rua Mostardeiro, 800, 4º andar, bairro Moinhos de Vento, Porto Alegre, RS",
+        "local_servico": "Duo Concept (Porto Alegre/RS)",
+        "tipo_servico": "Instalação (VRF)",
+        "detalhes": "Sistema de climatização e ventilação para o empreendimento Duo Concept.",
+        "prazo": null,
+        "porte": "Grande",
+        "origem": "Engenharia",
+        "licitacao": "Não",
+        "observacoes": "Muitos emails tratando de detalhes técnicos do sistema VRF."
+      },
+      "emails_fonte": [
+        {
+          "data": "2025-11-03",
+          "assunto": "RE: ID 134258 - SISTEMA DE CLIMATIZAÇÃO E V",
+          "de": "Emilly Martins Fagundes <Emilly.Fagundes@cyrela.com.br>",
+          "resumo": "Discussão sobre sistema de climatização do Duo Concept."
+        }
+      ],
+      "campos_nao_encontrados": [
+        "contato_telefone",
+        "prazo"
+      ]
+    },
+    {
+      "task_id": "TASK_028",
+      "asana_id": "Várias",
+      "status": "parcial",
+      "emails_analisados": 5,
+      "dados": {
+        "cliente": "Banrisul",
+        "local_servico": "Agências: Ivoti, Pareci Novo, Chuí, Joinville, Tramandaí, Canoas, Coronel Pilar, Pelotas",
+        "tipo_servico": "Manutenção",
+        "detalhes": "Várias agências com demandas de manutenção e chamados de corretiva.",
+        "observacoes": "Chuí: Rua Perú; Joinville: Rua Princesa Isabel, 499; Canoas: Rua 15 de Janeiro, 94; Coronel Pilar: Av. 25 de Julho, 345."
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [
+        "cnpj",
+        "prazo"
+      ]
+    },
+    {
+      "task_id": "TASK_029",
+      "asana_id": "26_029",
+      "status": "encontrado",
+      "emails_analisados": 4,
+      "dados": {
+        "cliente": "TRE-RS",
+        "contato_nome": "Alexandre Farina Marcon",
+        "contato_email": "alexandremarcon@tre-rs.jus.br",
+        "local_servico": "Pedro Osório/RS",
+        "tipo_servico": "Manutenção",
+        "detalhes": "Abertura de chamado para manutenção na zona eleitoral de Pedro Osório.",
+        "origem": "Comercial",
+        "licitacao": "Sim"
+      },
+      "emails_fonte": [
+        {
+          "data": "2026-01-14",
+          "assunto": "Abertura de chamado - Pedro Osório",
+          "de": "ALEXANDRE FARINA MARCON <alexandremarcon@tre-rs.jus.br>",
+          "resumo": "Chamado de manutenção para Pedro Osório."
+        }
+      ],
+      "campos_nao_encontrados": [
+        "cnpj",
+        "endereco"
+      ]
+    },
+    {
+      "task_id": "TASK_030",
+      "asana_id": "26_060",
+      "status": "parcial",
+      "emails_analisados": 10,
+      "dados": {
+        "cliente": "Porto Seguro",
+        "tipo_servico": "Manutenção (PMOC)",
+        "detalhes": "Renovação e gestão de PMOC para diversas unidades.",
+        "porte": "Médio"
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [
+        "cnpj",
+        "endereco",
+        "contato_nome"
+      ]
+    },
+    {
+      "task_id": "TASK_031",
+      "asana_id": "26_062",
+      "status": "encontrado",
+      "emails_analisados": 2,
+      "dados": {
+        "cliente": "Colombo Park Shopping",
+        "cnpj": "17.244.360/0001-31",
+        "endereco": "Rua Dorval Ceccon, 664, Jardim Nossa Senhora de Fátima, Colombo - PR, CEP 83405-030",
+        "local_servico": "Colombo/PR",
+        "tipo_servico": "Manutenção (PMOC)",
+        "detalhes": "BID de climatização envolvendo lojas do shopping (Grupo Soma).",
+        "porte": "Grande"
+      },
+      "emails_fonte": [
+        {
+          "data": "2025-10-24",
+          "assunto": "BID Climatização Lojas Grupo Soma - Propostas",
+          "de": "Andressa Rosana da Veiga Silva <andressa.veiga@ciahering.com.br>",
+          "resumo": "Processo de BID para climatização em shoppings."
+        }
+      ],
+      "campos_nao_encontrados": [
+        "contato_nome"
+      ]
+    },
+    {
+      "task_id": "TASK_004",
+      "asana_id": "26_023",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Easy Planning CAU/SC",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385144"
+    },
+    {
+      "task_id": "TASK_005",
+      "asana_id": "26_055",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Santana da Boa Vista - Portilho",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385146"
+    },
+    {
+      "task_id": "TASK_006",
+      "asana_id": "26_047",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Banrisul - Morrinhos do Sul",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385148"
+    },
+    {
+      "task_id": "TASK_007",
+      "asana_id": "26_043",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Banrisul - Faxinal do Soturno",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385150"
+    },
+    {
+      "task_id": "TASK_008",
+      "asana_id": "25_837",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Clínica Bertol Marques",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385154"
+    },
+    {
+      "task_id": "TASK_009",
+      "asana_id": "26_053",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "Edifício Mondrian Boldinc",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385157"
+    },
+    {
+      "task_id": "TASK_010",
+      "asana_id": "26_044",
+      "status": "dry_run",
+      "emails_analisados": 0,
+      "dados": {
+        "cliente": "LFDA",
+        "cnpj": null,
+        "contato_nome": null,
+        "contato_telefone": null,
+        "contato_email": null,
+        "endereco": null,
+        "local_servico": null,
+        "tipo_servico": null,
+        "detalhes": null,
+        "prazo": null,
+        "porte": null,
+        "origem": null,
+        "licitacao": null,
+        "observacoes": null
+      },
+      "emails_fonte": [],
+      "campos_nao_encontrados": [],
+      "processado_em": "2026-02-07T02:17:34.385160"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "composicoes": {
+    "COMP_INST_9K": {
+      "descricao": "Instalacao Split 9.000 BTUs",
+      "descricao_variavel": {
+        "prefixo": "Instalacao Split 9.000 BTUs com ",
+        "sufixo": " de linha frigorígena",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "TUB_14_FLEX", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "TUB_38_FLEX", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "ISO_14_ELA_E9", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "ISO_38_ELA_E9", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "ACA_FITA_TER", "qtd_base": 0.15, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "CAB_COM", "qtd_base": 0, "qtd_var": 1.15},
+        {"tipo": "MAT", "codigo": "SUP_EVAP", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SUP_BUCHA", "qtd_base": 6, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SUP_CHIP", "qtd_base": 6, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_ESPUMA", "qtd_base": 0.3, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_FITA_ISO", "qtd_base": 0.25, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_FITA_AUT", "qtd_base": 0.2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SOL_PRATA", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SOL_FLUXO", "qtd_base": 0.2, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 2, "qtd_var": 0.15},
+        {"tipo": "MO", "codigo": "MO_AJU", "qtd_base": 2, "qtd_var": 0.15},
+        {"tipo": "FER", "codigo": "FER_VACUO", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANIF", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_SOLDA", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANUAL", "qtd_base": 2.5, "qtd_var": 0}
+      ]
+    },
+    "COMP_SUP_MF": {
+      "descricao": "Adicional suporte mao francesa 400mm (condensadora)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "SUP_MF_400", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SUP_PARF_100", "qtd_base": 4, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.75, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_AJU", "qtd_base": 0.75, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_PERF", "qtd_base": 0.5, "qtd_var": 0}
+      ]
+    },
+    "COMP_SUP_CALCO": {
+      "descricao": "Adicional calcos de borracha (condensadora)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "SUP_CALCO", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.25, "qtd_var": 0}
+      ]
+    },
+    "COMP_ELE": {
+      "descricao": "Alimentacao eletrica 220V mono",
+      "descricao_variavel": {
+        "prefixo": "Alimentacao eletrica 220V mono com ",
+        "sufixo": " de cabo e eletroduto",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "CAB_PP_25", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "COND_CORR_34", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "COND_CURV_34", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "COND_ABRC_34", "qtd_base": 0, "qtd_var": 1.2},
+        {"tipo": "MAT", "codigo": "ACA_FITA_ISO", "qtd_base": 0.25, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_ELE", "qtd_base": 1, "qtd_var": 0.15},
+        {"tipo": "FER", "codigo": "FER_MULT", "qtd_base": 0.5, "qtd_var": 0}
+      ]
+    },
+    "COMP_DRN_CRIS": {
+      "descricao": "Dreno mangueira cristal",
+      "descricao_variavel": {
+        "prefixo": "Dreno mangueira cristal com ",
+        "sufixo": "",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "DRN_CRIS_34", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "DRN_ABRC", "qtd_base": 0, "qtd_var": 1.3},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.25, "qtd_var": 0.1}
+      ]
+    },
+    "COMP_DRN_PVC": {
+      "descricao": "Dreno tubo PVC 25mm",
+      "descricao_variavel": {
+        "prefixo": "Dreno tubo PVC 25mm com ",
+        "sufixo": "",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "DRN_PVC_25", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "DRN_CURV_25", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "DRN_LUVA_25", "qtd_base": 0, "qtd_var": 0.5},
+        {"tipo": "MAT", "codigo": "DRN_COLA", "qtd_base": 0.3, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.5, "qtd_var": 0.15}
+      ]
+    },
+    "COMP_FURO": {
+      "descricao": "Furo em parede/laje/viga (ate 20cm espessura)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "ACA_ESPUMA", "qtd_base": 0.2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_MASSA", "qtd_base": 0.3, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.75, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_AJU", "qtd_base": 0.75, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_PERF", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_SERRA_65", "qtd_base": 1, "qtd_var": 0}
+      ]
+    },
+    "COMP_CAN_50": {
+      "descricao": "Acabamento canaleta PVC 50mm",
+      "descricao_variavel": {
+        "prefixo": "Acabamento canaleta PVC 50mm com ",
+        "sufixo": "",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "ACA_CAN_50", "qtd_base": 0, "qtd_var": 1.1},
+        {"tipo": "MAT", "codigo": "SUP_BUCHA", "qtd_base": 0, "qtd_var": 2},
+        {"tipo": "MAT", "codigo": "SUP_CHIP", "qtd_base": 0, "qtd_var": 2},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0, "qtd_var": 0.25}
+      ]
+    },
+    "COMP_ALV": {
+      "descricao": "Abertura e fechamento alvenaria",
+      "descricao_variavel": {
+        "prefixo": "Abertura e fechamento alvenaria com ",
+        "sufixo": " para embutir linha",
+        "unidade_singular": "metro",
+        "unidade_plural": "metros"
+      },
+      "itens": [
+        {"tipo": "MAT", "codigo": "ALV_ARG", "qtd_base": 0, "qtd_var": 0.5},
+        {"tipo": "MAT", "codigo": "ALV_TIJ", "qtd_base": 0, "qtd_var": 10},
+        {"tipo": "MO", "codigo": "MO_PED", "qtd_base": 1, "qtd_var": 1.25},
+        {"tipo": "MO", "codigo": "MO_SERV", "qtd_base": 1, "qtd_var": 1.25},
+        {"tipo": "FER", "codigo": "FER_MANUAL", "qtd_base": 1, "qtd_var": 1}
+      ]
+    },
+    "COMP_FACH": {
+      "descricao": "Instalacao condensadora em fachada (com suporte)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "SUP_MF_500", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "SUP_PARF_150", "qtd_base": 4, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_AJU", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_FAC", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_PERF", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANUAL", "qtd_base": 2, "qtd_var": 0}
+      ]
+    },
+    "COMP_ALT": {
+      "descricao": "Adicional trabalho em altura (acima 3m)",
+      "itens": [
+        {"tipo": "MO", "codigo": "MO_ALT", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_ESCADA", "qtd_base": 2, "qtd_var": 0}
+      ]
+    },
+    "COMP_BOMB_DRN": {
+      "descricao": "Instalacao bomba de dreno",
+      "itens": [
+        {"tipo": "EQP", "codigo": "EQP_BOMB_P", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "DRN_CRIS_34", "qtd_base": 2, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_FITA_ISO", "qtd_base": 0.1, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 1, "qtd_var": 0}
+      ]
+    },
+    "COMP_DISJ": {
+      "descricao": "Instalacao disjuntor no QDC",
+      "itens": [
+        {"tipo": "MAT", "codigo": "DISJ_M_16", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "CAB_FLEX_25", "qtd_base": 3, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "ACA_FITA_ISO", "qtd_base": 0.15, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_ELE", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MULT", "qtd_base": 0.25, "qtd_var": 0}
+      ]
+    },
+    "COMP_DRN_ESG": {
+      "descricao": "Conexao dreno em rede esgoto (com sifao)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "DRN_PVC_25", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "DRN_SIFAO", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "DRN_CURV_25", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MAT", "codigo": "DRN_COLA", "qtd_base": 0.2, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.75, "qtd_var": 0}
+      ]
+    },
+    "COMP_DESINST": {
+      "descricao": "Desinstalacao de equipamento Split",
+      "itens": [
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 1.5, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_AJU", "qtd_base": 1.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANIF", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANUAL", "qtd_base": 1.5, "qtd_var": 0}
+      ]
+    },
+    "COMP_GAS_ADIC": {
+      "descricao": "Carga adicional gas R-410A (por kg)",
+      "itens": [
+        {"tipo": "MAT", "codigo": "GAS_R410A", "qtd_base": 1, "qtd_var": 0},
+        {"tipo": "MO", "codigo": "MO_TEC", "qtd_base": 0.5, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_MANIF", "qtd_base": 0.25, "qtd_var": 0},
+        {"tipo": "FER", "codigo": "FER_BAL", "qtd_base": 0.25, "qtd_var": 0}
+      ]
+    },
+    "COMP_FORN_9K": {
+      "descricao": "Fornecimento Split Hi-Wall 9.000 BTUs",
+      "itens": [
+        {"tipo": "EQP", "codigo": "EQP_HW_9K", "qtd_base": 1, "qtd_var": 0}
+      ]
+    }
+  },
+  "tipos_insumo": {
+    "MAT": "materiais",
+    "MO": "mao_de_obra",
+    "FER": "ferramentas",
+    "EQP": "equipamentos"
+  },
+  "metadata": {
+    "versao": "1.0",
+    "origem": "imported_bases/composicoes.py",
+    "data_conversao": "2026-01-02",
+    "total_composicoes": 16,
+    "nota": "qtd_base = quantidade fixa, qtd_var = quantidade variavel por unidade (ver unidade em descricao_variavel)"
+  }
+}

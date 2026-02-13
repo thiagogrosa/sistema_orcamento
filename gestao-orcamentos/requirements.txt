@@ -1,0 +1,41 @@
+# Sistema de Gestão de Orçamentos - Dependências Python
+# Python 3.10+
+
+# ===== Core =====
+anthropic>=0.30.0              # Claude API
+click>=8.1.0                   # CLI framework
+requests>=2.31.0               # HTTP requests
+python-dotenv>=1.0.0           # .env support
+
+# ===== Gmail API =====
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# ===== Processamento de Dados =====
+beautifulsoup4>=4.12.0         # HTML parsing
+html2text>=2020.1.16           # HTML → Markdown
+lxml>=4.9.0                    # XML/HTML parser (backend para BS4)
+pydantic>=2.0.0                # Validação de schema
+
+# ===== Asana =====
+asana>=3.2.0                   # Cliente oficial Asana (fallback se MCP falhar)
+
+# ===== CLI e UX =====
+rich>=13.5.0                   # Terminal formatado (tabelas, progress, logs)
+rich-click>=1.7.0              # Click + Rich integration
+
+# ===== Retry e Robustez =====
+tenacity>=8.2.3                # Retry logic com backoff exponencial
+
+# ===== Testes (Opcional) =====
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# ===== Desenvolvimento (Opcional) =====
+black>=23.9.0                  # Code formatter
+flake8>=6.1.0                  # Linter
+mypy>=1.5.0                    # Type checker
+ipython>=8.15.0                # REPL melhorado

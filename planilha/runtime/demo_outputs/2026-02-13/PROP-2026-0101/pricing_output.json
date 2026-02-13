@@ -1,0 +1,9 @@
+{
+  "base_cost": 197000,
+  "tax_value": 19700.0,
+  "overhead_value": 15760.0,
+  "subtotal_before_margin": 232460.0,
+  "margin_value": 32544.4,
+  "final_price": 265004.4,
+  "policy_version": "v1"
+}

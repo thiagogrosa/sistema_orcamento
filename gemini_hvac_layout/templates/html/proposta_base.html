@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento {{ numero_orcamento }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="proposta_styles.css">
+</head>
+
+<body>
+<body>
+    <!-- ELEMENTOS REPETIDOS EM TODAS AS PÁGINAS (EXCETO A PRIMEIRA) -->
+    <header id="page-header">
+        <table class="header-table">
+            <tr>
+                <td class="header-td-logo">
+                    {% if logo_secundario_base64 %}
+                    <img src="data:image/png;base64,{{ logo_secundario_base64 }}" alt="Armant" class="header-logo-compact">
+                    {% else %}
+                    <img src="data:image/png;base64,{{ logo_base64 }}" alt="Armant" class="header-logo-compact">
+                    {% endif %}
+                </td>
+                <td class="header-td-info">
+                    <div class="header-num-orc-compact">ORÇAMENTO {{ numero_orcamento }}</div>
+                    <div class="header-data-compact">{{ cidade }}, {{ data_extenso }}</div>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- MARCA D'ÁGUA -->
+    <div class="watermark-container">
+        {% if marca_dagua_base64 %}
+        <img src="data:image/png;base64,{{ marca_dagua_base64 }}" class="watermark-img">
+        {% endif %}
+    </div>
+    
+    {% if rascunho %}
+    <div class="watermark-text">RASCUNHO</div>
+    {% endif %}
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div style="margin-bottom: 2px;">
+                    <span class="rodape-empresa">{{ empresa.razao_social }}</span>
+                    <span class="separador">|</span>
+                    <span>CNPJ: {{ empresa.cnpj }}</span>
+                </div>
+                <div style="margin-bottom: 2px;">
+                    <a href="https://www.google.com/maps/search/?api=1&query={{ (empresa.endereco.logradouro + ' ' + empresa.endereco.bairro + ' ' + empresa.endereco.cidade + ' ' + empresa.endereco.estado + ' ' + empresa.endereco.cep)|urlencode }}" class="footer-link">
+                        {{ empresa.endereco.logradouro }} - {{ empresa.endereco.bairro }}, {{ empresa.endereco.cidade }} - {{ empresa.endereco.estado }}, {{ empresa.endereco.cep }}
+                    </a>
+                </div>
+                <div>
+                    <strong>{{ empresa.telefone }}</strong>
+                    <span class="separador">|</span>
+                    {{ empresa.email }}
+                    <span class="separador">|</span>
+                    {{ empresa.site }}
+                </div>
+            </div>
+            <div class="footer-logos">
+                {% if logo_abrava_base64 %}
+                <img src="data:image/png;base64,{{ logo_abrava_base64 }}" class="footer-logo">
+                {% endif %}
+                {% if logo_asbrav_base64 %}
+                <img src="data:image/png;base64,{{ logo_asbrav_base64 }}" class="footer-logo">
+                {% endif %}
+            </div>
+        </div>
+    </footer>
+
+    <!-- CABEÇALHO EXCLUSIVO DA PRIMEIRA PÁGINA (GRANDE) -->
+    <div class="first-page-header">
+        <div class="logo-container-large">
+            {% if logo_base64 %}
+            <img src="data:image/png;base64,{{ logo_base64 }}" alt="Armant" class="logo-large">
+            {% endif %}
+        </div>
+        <div class="header-right-large">
+            <div class="header-num-orc-large">ORÇAMENTO Nº {{ numero_orcamento }}</div>
+            <div class="header-data-large">{{ cidade }}, {{ data_extenso }}</div>
+        </div>
+    </div>
+
+    <!-- TÍTULO DA PROPOSTA -->
+    <div class="main-title">
+        <h1>PROPOSTA COMERCIAL</h1>
+    </div>
+
+    <!-- DADOS DO CLIENTE -->
+    <div class="card-cliente">
+        <div>
+            <div class="cliente-info-item">
+                <strong>Cliente / Razão Social</strong>
+                {{ cliente.razao_social }}
+            </div>
+            <div class="cliente-info-item">
+                <strong>CNPJ / CPF</strong>
+                {{ cliente.cnpj or cliente.cpf or 'N/I' }}
+            </div>
+            <div class="cliente-info-item">
+                <strong>Endereço de Atendimento</strong>
+                {{ cliente.endereco }}
+            </div>
+        </div>
+        <div>
+            <div class="cliente-info-item">
+                <strong>Aos cuidados de</strong>
+                {{ cliente.contato_nome }}
+            </div>
+            <div class="cliente-info-item">
+                <strong>E-mail</strong>
+                {{ cliente.contato_email or 'N/I' }}
+            </div>
+            <div class="cliente-info-item">
+                <strong>Telefone</strong>
+                {{ cliente.contato_telefone or 'N/I' }}
+            </div>
+        </div>
+    </div>
+
+    <!-- REFERENCIA -->
+    <div class="referencia-projeto">
+        <strong>Referência:</strong> {{ referencia }}
+    </div>
+
+    <!-- 1. SERVIÇOS -->
+    <div class="secao-titulo">1. Descrição dos Serviços e Valores</div>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 40px; text-align: center;">Item</th>
+                <th>Descrição detalhada dos serviços</th>
+                <th style="width: 35px; text-align: center;">Un.</th>
+                <th style="width: 45px; text-align: center;">Qtd.</th>
+                {% if mostrar_unitario %}
+                <th style="width: 90px; text-align: right;">Unitário</th>
+                {% endif %}
+                <th style="width: 90px; text-align: right;">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for grupo in grupos %}
+            <tr class="linha-grupo">
+                <td style="text-align: center;">{{ grupo.numero }}</td>
+                <td colspan="{% if mostrar_unitario %}5{% else %}4{% endif %}">{{ grupo.nome }}</td>
+            </tr>
+            {% for item in grupo.itens %}
+            <tr>
+                <td style="text-align: center; color: #444;">{{ grupo.numero }}.{{ loop.index }}</td>
+                <td>{{ item.descricao }}</td>
+                <td style="text-align: center;">{{ item.unidade }}</td>
+                <td style="text-align: center;">{{ item.quantidade|formatar_numero }}</td>
+                {% if mostrar_unitario %}
+                <td style="text-align: right;">{{ item.valor_unitario|formatar_moeda }}</td>
+                {% endif %}
+                <td style="text-align: right;">{{ item.valor_total|formatar_moeda }}</td>
+            </tr>
+            {% endfor %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- INVESTIMENTO -->
+    <div class="quadro-investimento">
+        <div class="investimento-label">INVESTIMENTO TOTAL:</div>
+        <div class="investimento-valor">{{ valor_total|formatar_moeda }}</div>
+        <div class="investimento-extenso">({{ valor_extenso }})</div>
+    </div>
+
+    <!-- BLOCO DE FECHAMENTO -->
+    <div class="bloco-fechamento">
+        
+        <div class="grade-secoes">
+            <!-- 2. QUALIFICAÇÕES -->
+            <div>
+                <div class="secao-titulo">2. Qualificações e Diferenciais</div>
+                <ul class="lista-itens">
+                    {% for destaque in destaques %}
+                    <li>{{ destaque }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- 3. CONDIÇÕES -->
+            <div>
+                <div class="secao-titulo">3. Condições Comerciais</div>
+                <ul class="lista-itens">
+                    <li><strong>Pagamento:</strong> {{ condicoes.forma_pagamento }}</li>
+                    <li><strong>Prazo:</strong> {{ condicoes.prazo_execucao }}</li>
+                    <li><strong>Garantia:</strong> {{ condicoes.garantia }}</li>
+                    <li><strong>Validade:</strong> {{ condicoes.validade_dias }} dias</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grade-secoes">
+            <!-- 4. EXCLUSÕES -->
+            <div>
+                <div class="secao-titulo">4. Exclusões Técnicas</div>
+                <ul class="lista-itens">
+                    {% for exclusao in exclusoes %}
+                    <li>{{ exclusao }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- 5. ELABORAÇÃO -->
+            <div>
+                <div class="secao-titulo">5. Elaboração e Atendimento</div>
+                <ul class="lista-itens">
+                    <li><strong>Responsável:</strong> {{ responsavel.nome }}</li>
+                    <li><strong>E-mail:</strong> {{ responsavel.email }}</li>
+                    <li><strong>Telefone:</strong> {{ responsavel.telefone }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ASSINATURAS -->
+        <div class="assinaturas-container">
+            {% for assinatura in assinaturas %}
+            <div class="assinatura-box">
+                {% if assinatura.assinatura_img_base64 %}
+                <img src="data:image/png;base64,{{ assinatura.assinatura_img_base64 }}" class="signature-img">
+                {% else %}
+                <div style="height: 100px;"></div>
+                {% endif %}
+                <div class="assinatura-linha"></div>
+                <div class="assinatura-nome">{{ assinatura.nome }}</div>
+                <div class="assinatura-cargo">{{ assinatura.cargo }}</div>
+                {% if assinatura.registro %}<div class="assinatura-cargo">{{ assinatura.registro }}</div>{% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>

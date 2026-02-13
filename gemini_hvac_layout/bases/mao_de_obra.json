@@ -1,0 +1,83 @@
+{
+  "mao_de_obra": {
+    "MO_TEC": {
+      "categoria": "Instalacao",
+      "descricao": "Tecnico em refrigeracao",
+      "unidade": "H",
+      "custo_hora": 65.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_AJU": {
+      "categoria": "Instalacao",
+      "descricao": "Ajudante de instalacao",
+      "unidade": "H",
+      "custo_hora": 35.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_ELE": {
+      "categoria": "Eletrica",
+      "descricao": "Eletricista",
+      "unidade": "H",
+      "custo_hora": 55.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_PED": {
+      "categoria": "Civil",
+      "descricao": "Pedreiro",
+      "unidade": "H",
+      "custo_hora": 50.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_SERV": {
+      "categoria": "Civil",
+      "descricao": "Servente de pedreiro",
+      "unidade": "H",
+      "custo_hora": 30.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_ALT": {
+      "categoria": "Adicional",
+      "descricao": "Adicional trabalho em altura (>3m)",
+      "unidade": "H",
+      "custo_hora": 25.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_FAC": {
+      "categoria": "Adicional",
+      "descricao": "Adicional trabalho fachada",
+      "unidade": "H",
+      "custo_hora": 35.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_DESL_20": {
+      "categoria": "Deslocamento",
+      "descricao": "Deslocamento equipe (ate 20km)",
+      "unidade": "VZ",
+      "custo_hora": 80.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "MO_DESL_50": {
+      "categoria": "Deslocamento",
+      "descricao": "Deslocamento equipe (20-50km)",
+      "unidade": "VZ",
+      "custo_hora": 150.00,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    }
+  },
+  "metadata": {
+    "versao": "1.0",
+    "origem": "imported_bases/mao_de_obra.py",
+    "data_conversao": "2026-01-02",
+    "total_itens": 9,
+    "categorias": ["Instalacao", "Eletrica", "Civil", "Adicional", "Deslocamento"]
+  }
+}

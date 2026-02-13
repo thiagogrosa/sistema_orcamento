@@ -1,0 +1,56 @@
+{
+  "instalacao": [
+    "Decoracao (Gesso);",
+    "Bomba de drenagem;",
+    "Abertura de canaletas;",
+    "Ponto/ramal de dreno;",
+    "Ponto/ramal de forca 220v;",
+    "Trabalho fora do horario comercial.",
+    "Montagem e fornecimento de andaimes;",
+    "Acabamento em massa corrida e pintura;",
+    "Servicos de alvenaria (abertura e fechamento);",
+    "Calha plastica e/ou eletrocalhas de acabamento para linha frigoригena;"
+  ],
+  "instalacao-completa": [
+    "Decoracao (Gesso);",
+    "Bomba de drenagem;",
+    "Abertura de canaletas;",
+    "Ponto/ramal de dreno;",
+    "Ponto/ramal de forca 220v;",
+    "Trabalho fora do horario comercial.",
+    "Montagem e fornecimento de andaimes;",
+    "Acabamento em massa corrida e pintura;",
+    "Servicos de alvenaria (abertura e fechamento);",
+    "Calha plastica e/ou eletrocalhas de acabamento para linha frigoригena;"
+  ],
+  "apenas-instalacao": [
+    "Fornecimento de equipamentos;",
+    "Decoracao (Gesso);",
+    "Bomba de drenagem;",
+    "Abertura de canaletas;",
+    "Ponto/ramal de dreno;",
+    "Ponto/ramal de forca 220v;",
+    "Trabalho fora do horario comercial.",
+    "Montagem e fornecimento de andaimes;",
+    "Acabamento em massa corrida e pintura;",
+    "Servicos de alvenaria (abertura e fechamento);",
+    "Calha plastica e/ou eletrocalhas de acabamento para linha frigoригena;"
+  ],
+  "manutencao-preventiva": [
+    "Pecas e componentes;",
+    "Recarga de gas refrigerante;",
+    "Servicos de instalacao;",
+    "Trabalho fora do horario comercial."
+  ],
+  "manutencao-corretiva": [
+    "Pecas e componentes nao diagnosticados previamente;",
+    "Servicos de instalacao;",
+    "Trabalho fora do horario comercial."
+  ],
+  "desinstalacao": [
+    "Transporte de equipamentos;",
+    "Destinacao de residuos;",
+    "Fechamento de furos e vaos;",
+    "Trabalho fora do horario comercial."
+  ]
+}

@@ -1,0 +1,166 @@
+Você é um extrator de dados de orçamentos de climatização. Analise o texto preparado abaixo e extraia informações estruturadas.
+
+IMPORTANTE:
+- Retorne APENAS JSON válido, sem explicações ou texto adicional
+- Se um campo não for encontrado, use null
+- Infira informações quando possível baseado no contexto
+
+SCHEMA JSON OBRIGATÓRIO:
+{
+  "cliente": "string (obrigatório)",
+  "cnpj_cpf": "string ou null",
+  "contato": "string ou null",
+  "telefone": "string ou null",
+  "email": "string ou null",
+  "local": "string (obrigatório) - formato: Cidade - UF",
+  "prazo": "string ou null - formato: YYYY-MM-DD",
+  "tipo_servico": "instalacao|manutencao|projeto (obrigatório)",
+  "eh_licitacao": "boolean",
+  "numero_edital": "string ou null",
+  "porte": "pequeno|medio|grande ou null",
+  "origem": "comercial|cliente_direto|diretoria|engenharia",
+  "descricao": "string (obrigatório) - resumo conciso do solicitado",
+  "urgente": "boolean",
+  "cliente_estrategico": "boolean"
+}
+
+REGRAS DE INFERÊNCIA:
+
+1. tipo_servico:
+   - "instalacao": menciona instalar, instalação, novo sistema, novo equipamento
+   - "manutencao": menciona manutenção, reparo, conserto, PMOC, corretiva, preventiva
+   - "projeto": menciona projeto, dimensionamento, as-built, cálculo
+
+2. porte:
+   - "pequeno": área ≤100m² OU ≤3 equipamentos OU valor <R$10.000
+   - "medio": área 100-500m² OU 3-10 equipamentos OU R$10.000-50.000
+   - "grande": área >500m² OU >10 equipamentos OU >R$50.000
+
+3. urgente:
+   - true se menciona: urgente, emergência, emergencial, prazo <7 dias
+   - false caso contrário
+
+4. eh_licitacao:
+   - true se menciona: licitação, pregão, edital, concorrência, tomada de preços
+   - false caso contrário
+
+5. origem:
+   - "comercial": vem do setor comercial, vendedor
+   - "cliente_direto": cliente entrou em contato diretamente
+   - "diretoria": solicitado por diretor, gerência
+   - "engenharia": vem do setor de engenharia
+   - Inferir pelo contexto (ex: se tem nome de vendedor = comercial)
+
+6. local:
+   - Extrair cidade e estado
+   - Formato obrigatório: "Cidade - UF" (ex: "Porto Alegre - RS")
+   - Se não tem estado explícito, inferir se possível
+
+7. prazo:
+   - Converter datas DD/MM/AAAA para YYYY-MM-DD
+   - Se menciona "até dia 15" ou similar, usar dia 15 do mês atual/próximo
+   - Se não tem prazo, usar null
+
+8. descricao:
+   - Resumo conciso (1-3 frases)
+   - Focar no QUE foi solicitado, não em detalhes administrativos
+   - Incluir: tipo de serviço, equipamento/área, localização se relevante
+
+EXEMPLOS:
+
+Entrada 1:
+"""
+Cliente: Empresa ABC Ltda
+CNPJ: 12.345.678/0001-90
+Telefone: (11) 98765-4321
+Local: São Paulo - SP
+
+Solicito orçamento para instalação de split 18.000 BTUs na sala de reuniões.
+Área aproximada de 50m².
+Prazo: 15/02/2026
+"""
+
+Saída 1:
+{
+  "cliente": "Empresa ABC Ltda",
+  "cnpj_cpf": "12.345.678/0001-90",
+  "contato": null,
+  "telefone": "(11) 98765-4321",
+  "email": null,
+  "local": "São Paulo - SP",
+  "prazo": "2026-02-15",
+  "tipo_servico": "instalacao",
+  "eh_licitacao": false,
+  "numero_edital": null,
+  "porte": "pequeno",
+  "origem": "cliente_direto",
+  "descricao": "Instalação de split 18.000 BTUs em sala de reuniões, área aproximada de 50m²",
+  "urgente": false,
+  "cliente_estrategico": false
+}
+
+Entrada 2:
+"""
+De: Carlos - Comercial
+Para: Orçamentos
+
+Cliente: Prefeitura de Uberlândia
+Pregão 045/2025
+Prazo edital: 28/02/2026
+
+PMOC para 97 máquinas em 4 unidades da cidade.
+Grande porte, cliente estratégico.
+"""
+
+Saída 2:
+{
+  "cliente": "Prefeitura de Uberlândia",
+  "cnpj_cpf": null,
+  "contato": null,
+  "telefone": null,
+  "email": null,
+  "local": "Uberlândia - MG",
+  "prazo": "2026-02-28",
+  "tipo_servico": "manutencao",
+  "eh_licitacao": true,
+  "numero_edital": "Pregão 045/2025",
+  "porte": "grande",
+  "origem": "comercial",
+  "descricao": "PMOC para 97 máquinas distribuídas em 4 unidades",
+  "urgente": false,
+  "cliente_estrategico": true
+}
+
+Entrada 3:
+"""
+JBS Seara - Nova Veneza/SC
+Contato: Cesar Felicetti (Gerente Manutenções)
+Email: cesar.felicetti@seara.com.br
+Tel: (49) 99159-1759
+
+Projeto de climatização e exaustão para cozinha industrial e sala de lavação.
+Urgente - precisam até semana que vem.
+"""
+
+Saída 3:
+{
+  "cliente": "JBS Seara",
+  "cnpj_cpf": null,
+  "contato": "Cesar Felicetti",
+  "telefone": "(49) 99159-1759",
+  "email": "cesar.felicetti@seara.com.br",
+  "local": "Nova Veneza - SC",
+  "prazo": null,
+  "tipo_servico": "projeto",
+  "eh_licitacao": false,
+  "numero_edital": null,
+  "porte": "medio",
+  "origem": "cliente_direto",
+  "descricao": "Projeto de climatização e exaustão para cozinha industrial e sala de lavação",
+  "urgente": true,
+  "cliente_estrategico": false
+}
+
+AGORA ANALISE O TEXTO ABAIXO E RETORNE APENAS O JSON:
+
+{texto_preparado}

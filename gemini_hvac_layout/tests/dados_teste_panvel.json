@@ -1,0 +1,158 @@
+{
+  "projeto": "Instalacao de Ar-Condicionado",
+  "cliente": "Grupo Panvel Farmacias",
+  "tipo_cliente": "PRIVADO-PJ",
+  "data_orcamento": "2025-12-18",
+  "validade_dias": 10,
+  "dados_cliente": {
+    "razao_social": "Grupo Panvel Farmacias",
+    "cnpj": "92.665.611/0322-90",
+    "endereco": "Av. Industrial Belgraf, 865 - Bairro Industrial, Eldorado do Sul - RS, 92990-000",
+    "contato_nome": "Paulo Ficks",
+    "contato_email": "pficks@grupopanvel.com.br",
+    "contato_telefone": "51 3481-9885"
+  },
+  "referencia": "Instalacao de Ar-Condicionado",
+  "itens_precificados": [
+    {
+      "id": 1,
+      "descricao": "Instalacao de equipamento tipo cassete de 60.000 BTU/h, contemplando linhas frigorifenas ate 40m de acordo com o modelo da maquina, isolacao termica, mangueira cristal para dreno, vacuo, pressurizacao do sistema e equalizacao das pressoes com fluido refrigerante.",
+      "composicao": "INST-CASSETE-60K",
+      "quantidade": 1,
+      "unidade": "pc",
+      "tipo_servico": "instalacao-completa",
+      "materiais": [
+        {
+          "codigo": "TUB-CU-3/8",
+          "descricao": "Tubo cobre 3/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 45.00,
+          "custo": 1800.00
+        },
+        {
+          "codigo": "TUB-CU-5/8",
+          "descricao": "Tubo cobre 5/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 65.00,
+          "custo": 2600.00,
+          "fornecedor_referencia": "Cobre Brasil"
+        },
+        {
+          "codigo": "ISO-ELASTOMERICO",
+          "descricao": "Isolamento elastomerico",
+          "quantidade": 80,
+          "unidade": "m",
+          "preco_unitario": 12.00,
+          "custo": 960.00
+        },
+        {
+          "codigo": "MANG-CRISTAL",
+          "descricao": "Mangueira cristal dreno",
+          "quantidade": 20,
+          "unidade": "m",
+          "preco_unitario": 8.00,
+          "custo": 160.00
+        },
+        {
+          "codigo": "GAS-R410A",
+          "descricao": "Gas refrigerante R410A",
+          "quantidade": 3,
+          "unidade": "kg",
+          "preco_unitario": 180.00,
+          "custo": 540.00,
+          "fornecedor_referencia": "Refrigas"
+        },
+        {
+          "codigo": "SUPORTE-CASSETE",
+          "descricao": "Suporte para cassete",
+          "quantidade": 1,
+          "unidade": "un",
+          "preco_unitario": 250.00,
+          "custo": 250.00
+        }
+      ],
+      "mao_de_obra": [
+        {
+          "codigo": "MO-TECNICO",
+          "descricao": "Tecnico HVAC",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 85.00,
+          "custo": 1360.00
+        },
+        {
+          "codigo": "MO-AJUDANTE",
+          "descricao": "Ajudante",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 45.00,
+          "custo": 720.00
+        }
+      ],
+      "ferramentas": [
+        {
+          "codigo": "FER-VACUOMETRO",
+          "descricao": "Vacuometro digital",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 15.00,
+          "custo": 60.00
+        },
+        {
+          "codigo": "FER-MANIFOLD",
+          "descricao": "Manifold R410A",
+          "quantidade": 8,
+          "unidade": "h",
+          "preco_unitario": 12.00,
+          "custo": 96.00
+        },
+        {
+          "codigo": "FER-BOMBA-VACUO",
+          "descricao": "Bomba de vacuo",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 25.00,
+          "custo": 100.00
+        }
+      ],
+      "equipamentos": [],
+      "custo_materiais": 6310.00,
+      "custo_mao_obra": 2080.00,
+      "custo_ferramentas": 256.00,
+      "custo_equipamentos": 0.00,
+      "custo_direto": 8646.00,
+      "bdi": 2451.90,
+      "preco_total": 11097.90
+    }
+  ],
+  "agrupamento": [
+    {
+      "nome": "PREDIO 100",
+      "itens_ids": [1]
+    }
+  ],
+  "resumo_financeiro": {
+    "total_materiais": 6310.00,
+    "total_mao_obra": 2080.00,
+    "total_ferramentas": 256.00,
+    "total_equipamentos": 0.00,
+    "custo_direto": 8646.00,
+    "bdi_materiais": 2208.50,
+    "bdi_mao_obra": 832.00,
+    "bdi_ferramentas": 76.80,
+    "bdi_equipamentos": 0.00,
+    "total_bdi": 2451.90,
+    "valor_total": 11097.90
+  },
+  "alertas": [],
+  "opcoes_output": {
+    "gerar_rascunho": true,
+    "condicoes_customizadas": {
+      "forma_pagamento": "Entrada de 40% e saldo na conclusão dos serviços.",
+      "prazo_execucao": "10 dias úteis após aprovação.",
+      "garantia": "01 (Um) ano de garantia dos serviços de instalação."
+    }
+  }
+}

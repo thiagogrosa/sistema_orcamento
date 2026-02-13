@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "gerado_em": "2026-02-12T23:13:31-03:00",
+    "total_composicoes": 94,
+    "versao_regras": "v2"
+  },
+  "resumo": {
+    "erros": 0,
+    "avisos": 0,
+    "infos": 44
+  },
+  "findings": [
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_9K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_12K, mas variante de capacidade (9K vs 12K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_9K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_12K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_9K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_18K, mas variante de capacidade (9K vs 18K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_HW_12K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_18K, mas variante de capacidade (12K vs 18K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_22K (jaccard=0.91)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_24K (jaccard=0.91)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_HW_22K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_24K, mas variante de capacidade (22K vs 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_22K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_24K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_HW_30K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_36K, mas variante de capacidade (30K vs 36K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_30K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_36K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_30K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_48K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_HW_30K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_60K, mas variante de capacidade (30K vs 60K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_HW_36K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_HW_48K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_HW_36K",
+      "mensagem": "descrição semelhante a COMP_INST_HW_60K, mas variante de capacidade (36K vs 60K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS4_18K",
+      "mensagem": "descrição semelhante a COMP_INST_CS4_24K, mas variante de capacidade (18K vs 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_CS4_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_CS4_24K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS4_18K",
+      "mensagem": "descrição semelhante a COMP_INST_CS1_18K, mas variante de topologia de cassete (mesma capacidade 18K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS4_24K",
+      "mensagem": "descrição semelhante a COMP_INST_CS1_24K, mas variante de topologia de cassete (mesma capacidade 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS4_36K",
+      "mensagem": "descrição semelhante a COMP_INST_CS4_48K, mas variante de capacidade (36K vs 48K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_CS4_36K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_CS4_48K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS4_36K",
+      "mensagem": "descrição semelhante a COMP_INST_CS1_36K, mas variante de topologia de cassete (mesma capacidade 36K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_PT_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_PT_24K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_PT_36K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_PT_48K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_PT_36K",
+      "mensagem": "descrição semelhante a COMP_INST_PT_60K, mas variante de capacidade (36K vs 60K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_INST_CS1_18K",
+      "mensagem": "descrição semelhante a COMP_INST_CS1_24K, mas variante de capacidade (18K vs 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_CS1_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_CS1_24K (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_BI_18K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_BI_24K (jaccard=0.95)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_INST_BI_36K",
+      "mensagem": "estrutura muito semelhante à composição COMP_INST_BI_48K (jaccard=0.91)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_MANUT_PREV_P",
+      "mensagem": "estrutura muito semelhante à composição COMP_MANUT_PREV_M (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_HW",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_PROF_CS (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_HW",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_PROF_PT (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_HW",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_QUIM_EVAP (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_CS",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_PROF_PT (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_CS",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_QUIM_EVAP (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_LIMP_PROF_PT",
+      "mensagem": "estrutura muito semelhante à composição COMP_LIMP_QUIM_EVAP (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_9K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_12K, mas variante de capacidade (9K vs 12K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_9K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_18K, mas variante de capacidade (9K vs 18K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_9K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_24K, mas variante de capacidade (9K vs 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_9K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_36K, mas variante de capacidade (9K vs 36K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_12K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_18K, mas variante de capacidade (12K vs 18K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "DESCRIPTION_SIMILARITY_ACCEPTED_VARIANT",
+      "composicao": "COMP_TROCA_COMP_12K",
+      "mensagem": "descrição semelhante a COMP_TROCA_COMP_24K, mas variante de capacidade (12K vs 24K)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_TROCA_PLC_IND",
+      "mensagem": "estrutura muito semelhante à composição COMP_TROCA_PLC_FAIXA_P (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_TROCA_MOT_EVAP",
+      "mensagem": "estrutura muito semelhante à composição COMP_TROCA_MOT_FAIXA_M (jaccard=1.00)"
+    },
+    {
+      "severidade": "info",
+      "regra": "STRUCTURE_HIGH_SIMILARITY",
+      "composicao": "COMP_REINST_HW",
+      "mensagem": "estrutura muito semelhante à composição COMP_REINST_CS (jaccard=0.90)"
+    }
+  ]
+}

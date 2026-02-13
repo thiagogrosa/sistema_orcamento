@@ -1,0 +1,147 @@
+{
+  "ferramentas": {
+    "FER_VACUO": {
+      "categoria": "Vacuo",
+      "descricao": "Bomba de vacuo",
+      "valor_aquisicao": 1500.00,
+      "vida_util_horas": 2000,
+      "custo_hora": 0.75,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_MANIF": {
+      "categoria": "Manifold",
+      "descricao": "Manifold digital",
+      "valor_aquisicao": 800.00,
+      "vida_util_horas": 3000,
+      "custo_hora": 0.27,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_SOLDA": {
+      "categoria": "Solda",
+      "descricao": "Kit solda oxigenio/GLP",
+      "valor_aquisicao": 1200.00,
+      "vida_util_horas": 1500,
+      "custo_hora": 0.80,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_PERF": {
+      "categoria": "Furacao",
+      "descricao": "Perfuratriz/martelete",
+      "valor_aquisicao": 1800.00,
+      "vida_util_horas": 2500,
+      "custo_hora": 0.72,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_SERRA_65": {
+      "categoria": "Furacao",
+      "descricao": "Serra copo diamantada 65mm",
+      "valor_aquisicao": 180.00,
+      "vida_util_horas": 150,
+      "custo_hora": 1.20,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_SERRA_80": {
+      "categoria": "Furacao",
+      "descricao": "Serra copo diamantada 80mm",
+      "valor_aquisicao": 220.00,
+      "vida_util_horas": 150,
+      "custo_hora": 1.47,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_ESCADA": {
+      "categoria": "Acesso",
+      "descricao": "Escada extensivel 6m",
+      "valor_aquisicao": 800.00,
+      "vida_util_horas": 3000,
+      "custo_hora": 0.27,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_ANDAIME": {
+      "categoria": "Acesso",
+      "descricao": "Andaime cavalete (par)",
+      "valor_aquisicao": 600.00,
+      "vida_util_horas": 2000,
+      "custo_hora": 0.30,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_ESTANQ": {
+      "categoria": "Teste",
+      "descricao": "Kit teste estanqueidade",
+      "valor_aquisicao": 350.00,
+      "vida_util_horas": 2000,
+      "custo_hora": 0.18,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_MULT": {
+      "categoria": "Eletrica",
+      "descricao": "Multimetro/alicate amperimetro",
+      "valor_aquisicao": 450.00,
+      "vida_util_horas": 3000,
+      "custo_hora": 0.15,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_MANUAL": {
+      "categoria": "Diversos",
+      "descricao": "Ferramentas manuais (conjunto)",
+      "valor_aquisicao": 1200.00,
+      "vida_util_horas": 4000,
+      "custo_hora": 0.30,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_FURAD": {
+      "categoria": "Furacao",
+      "descricao": "Furadeira de impacto",
+      "valor_aquisicao": 650.00,
+      "vida_util_horas": 2000,
+      "custo_hora": 0.33,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_CORTA": {
+      "categoria": "Corte",
+      "descricao": "Cortador de tubo cobre",
+      "valor_aquisicao": 120.00,
+      "vida_util_horas": 1000,
+      "custo_hora": 0.12,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_FLANG": {
+      "categoria": "Dobra",
+      "descricao": "Flangeador/alargador",
+      "valor_aquisicao": 380.00,
+      "vida_util_horas": 2000,
+      "custo_hora": 0.19,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    },
+    "FER_BAL": {
+      "categoria": "Refrigeracao",
+      "descricao": "Balanca digital refrigeracao",
+      "valor_aquisicao": 280.00,
+      "vida_util_horas": 2500,
+      "custo_hora": 0.11,
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 90
+    }
+  },
+  "metadata": {
+    "versao": "1.0",
+    "origem": "imported_bases/ferramentas.py",
+    "data_conversao": "2026-01-02",
+    "total_itens": 15,
+    "categorias": ["Vacuo", "Manifold", "Solda", "Furacao", "Acesso", "Teste", "Eletrica", "Diversos", "Corte", "Dobra", "Refrigeracao"],
+    "nota": "custo_hora = valor_aquisicao / vida_util_horas"
+  }
+}
