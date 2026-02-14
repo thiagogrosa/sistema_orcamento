@@ -1,0 +1,37 @@
+{
+  "proposal_id": "PROP-2026-0302",
+  "customer": {
+    "name": "Empresa Grandes Serviços Ltda",
+    "cnpj": "12.345.678/0001-90",
+    "contact": "Carlos Eduardo Silva",
+    "email": "carlos.eduardo@grandesservicos.com.br",
+    "phone": "51 99876-5432"
+  },
+  "project": {
+    "title": "Projeto de Climatização - Escritório Corporativo",
+    "location": "Porto Alegre/RS",
+    "objective": "Instalação de sistema de ar-condicionado para escritório de 800m² com 12 ambientes",
+    "deadline_days": 45
+  },
+  "compositions": [
+    {"code": "COMP_FORN_9K", "description": "Fornecimento Split Hi-Wall 9.000 BTUs", "qty": 12},
+    {"code": "COMP_INST_9K", "description": "Instalação Split 9.000 BTUs", "qty": 12, "variable_meters": 30},
+    {"code": "COMP_SUP_MF", "description": "Adicional suporte mão francesa", "qty": 12},
+    {"code": "COMP_ELE", "description": "Alimentação elétrica 220V mono", "qty": 12, "variable_meters": 5},
+    {"code": "COMP_DRN_CRIS", "description": "Dreno mangueira cristal", "qty": 12, "variable_meters": 3},
+    {"code": "COMP_FURO", "description": "Furo em parede/laje/viga", "qty": 24}
+  ],
+  "commercial": {
+    "tax_pct": 9.5,
+    "overhead_pct": 7.0,
+    "margin_pct": 12.0,
+    "payment_terms": "30% pedido, 40% entrega de equipamentos, 30% aceite final",
+    "warranty": "12 meses para serviços e equipamentos",
+    "validity_days": 15
+  },
+  "exclusions": [
+    "Obras civis (paredes, tetos, piso)",
+    "Infraestrutura elétrica externa ao quadro",
+    "Permissões e Alvarás de órgãos públicos"
+  ]
+}
