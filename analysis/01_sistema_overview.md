@@ -46,7 +46,7 @@ Gmail → preparar dados → IA extrai JSON → Asana
 | `prepare_data.py` | Implementado | Limpa HTML/EML para texto, reduz ruído antes de enviar para IA. |
 | `ai_extractor.py` | Implementado | Chama Claude (Haiku padrão, Sonnet como fallback) via SDK Anthropic. Retorna JSON estruturado com dados do orçamento. |
 | `asana_lib.py` | **Simulação** | Formata título/descrição/tags (real). Todas as chamadas à API Asana retornam UUIDs aleatórios com log `WARNING: MODO SIMULAÇÃO`. Nenhuma tarefa é criada de fato. |
-| `sync_drive.py` | Parcialmente implementado | Lógica de detecção de PDFs existe. Chamadas reais ao Drive/Asana dependem de `asana_lib` (que está em simulação). |
+| `sync_drive.py` | **Implementado** | Integração real com Google Drive API (555 linhas). Detecta PDFs, sincroniza pastas. As chamadas de escrita ao Asana dependem de `asana_lib` (que está em simulação). |
 | `cli.py` | Implementado | 6 subcomandos: `processar-pasta`, `buscar-emails`, `preparar-dados`, `extrair-dados`, `criar-tarefa`, `sync-drive`. Suporta `--dry-run`, `--verbose`, `--confirm`. |
 
 ### Estado da integração Asana
@@ -80,14 +80,16 @@ SECAO_ENVIADO = "1212920431590044"
 
 ### Testes (gestao_tarefas/tests/)
 
-5 arquivos de teste existem:
+5 arquivos de teste (~1.949 linhas):
 - `test_ai_extractor.py`
 - `test_asana_lib.py`
 - `test_cli.py`
 - `test_gmail_client.py`
 - `test_prepare_data.py`
 
-**Estado dos testes:** não verificado neste documento — ver `02_plano_verificacao.md`.
+**Importante:** todos os testes usam `unittest.mock`. As APIs externas (Gmail, Claude, Asana)
+**não são chamadas de fato** durante os testes — apenas o comportamento dos wrappers é
+verificado. Para testar integração real, ver `02_plano_verificacao.md`.
 
 ---
 
@@ -102,7 +104,7 @@ propostas para clientes.
 
 | Arquivo/Pasta | Status real | O que faz |
 |---------------|-------------|-----------|
-| `dados/composicoes.py` | Implementado | 94 composições HVAC como estrutura de dados Python. Base de cálculo de custos. |
+| `dados/composicoes.py` | Implementado | **1.744 linhas**. 94 tipos de composição, cada uma com lista de itens (MAT/MO/FER/EQP) somando 800+ entradas. Base de cálculo de custos. |
 | `dados/materiais.py` | Implementado | Catálogo de materiais com códigos, unidades e preços unitários. |
 | `dados/mao_de_obra.py` | Implementado | Catálogo de mão de obra. |
 | `dados/ferramentas.py` | Implementado | Catálogo de ferramentas. |
@@ -110,7 +112,7 @@ propostas para clientes.
 | `validar_composicoes.py` | **Implementado** | 8 validações (integridade de referências, quantidades negativas, unidade variável, outliers, duplicidade, cobertura mínima). Gera relatório MD + JSON. |
 | `criar_planilha.py` | Implementado | Gera workbook Excel (.xlsx/.xlsm) a partir dos dados Python usando openpyxl. |
 | `criar_planilha_split_v3.py` | Implementado | Versão alternativa do gerador com split por aba. |
-| `scraping/` | Implementado | Framework modular para scraping de preços. `mercadolivre_scraper.py` existe. Cache de 24h. |
+| `scraping/` | **Implementado — faz requisições HTTP reais** | BeautifulSoup parseando Mercado Livre. Cache de 24h em disco. `mercadolivre_scraper.py` e `jsonld_scraper.py` fazem requisições reais. |
 | `abas/` | Implementado | Módulos por aba do Excel (composicoes, escopo, cliente, negocio, etc). |
 | `automations/scripts/` | Implementado | Scripts de automação para geração de propostas, pricing engine, KPI report, lifecycle Asana (mock). |
 
@@ -140,7 +142,8 @@ fórmulas ficam no `template.xlsm` (Excel nativo).
 ### O que faz
 
 Pipeline Python para geração de propostas HVAC em formato Markdown/PDF/Excel.
-**Status real (confirmado no README):** em desenvolvimento.
+**Status do README:** "em desenvolvimento" — refere-se ao sistema como um todo.
+**O código Python em `hvac/` está implementado** (ver tabela abaixo).
 
 ### Componentes (hvac/)
 
@@ -155,12 +158,33 @@ Pipeline Python para geração de propostas HVAC em formato Markdown/PDF/Excel.
 | `utils/loader.py` | Implementado | Carrega bases de dados. |
 | `utils/metricas.py` | Implementado | Rastreia métricas de execução do pipeline. |
 
-### Testes (gerador_propostas/hvac/tests/)
+### Tamanho dos componentes
 
-3 arquivos de teste:
-- `test_compositor.py`
-- `test_precificador.py`
+| Arquivo | Linhas | O que é |
+|---------|--------|---------|
+| `generators/planilha_interna.py` | 671 | Planilha interna de orçamento |
+| `generators/proposta_pdf.py` | 388 | PDF com formatação HVAC |
+| `precificador.py` | 317 | Motor de precificação (BDI, markup) |
+| `compositor.py` | 296 | Expande escopo em itens de composição |
+| `pipeline.py` | 165 | Orquestra compositor → precificador → output |
+| `gerador_pdf.py` | 220 | Geração PDF via fpdf |
+
+### Testes (gerador_propostas/)
+
+4 arquivos de teste (~300+ linhas):
+- `hvac/tests/test_compositor.py`
+- `hvac/tests/test_precificador.py`
 - `tests/test_gerador_pdf_manual.py`
+
+---
+
+## Tamanho real do código por módulo
+
+| Módulo | LOC Python aprox. | Testes (LOC) | APIs externas reais |
+|--------|-------------------|--------------|---------------------|
+| gestao_tarefas | ~4.000 | ~1.950 | Gmail ✓, Claude ✓, Drive ✓, Asana ✗ (simulação) |
+| orcamento_hvac | ~10.500 | ~800 | Mercado Livre ✓ (scraper) |
+| gerador_propostas | ~4.000 | ~300 | Nenhuma (processamento interno) |
 
 ---
 
