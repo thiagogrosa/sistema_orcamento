@@ -1,0 +1,203 @@
+/* ==========================================================================
+   PROPOSTA COMERCIAL ARMANT - PADRONIZAÇÃO E SIMETRIA
+   ========================================================================== */
+
+@page {
+    size: A4;
+    margin: 15mm 15mm 25mm 15mm;
+
+    @bottom-center {
+        content: element(footer);
+    }
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+:root {
+    --primary-color: #0A94D6;
+    --secondary-color: #00A859;
+    --black: #000000;
+    --white: #FFFFFF;
+    --text-dark: #000000;
+    --text-muted: #333333;
+    --border-color: #0A94D6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 8.8pt; /* Leve redução para garantir que a grade caiba bem */
+    line-height: 1.35;
+    color: var(--black);
+    background: var(--white);
+}
+
+/* MARCA D'ÁGUA */
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 120pt;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.03);
+    z-index: -1000;
+    pointer-events: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.logo-container img { max-height: 55px; }
+.header-right { text-align: right; }
+.header-num-orc { font-size: 12pt; font-weight: bold; color: var(--black); }
+.header-data { font-size: 8.5pt; color: var(--black); }
+
+.main-title { text-align: center; margin-bottom: 12px; }
+.main-title h1 {
+    font-size: 14pt;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid var(--secondary-color);
+    display: inline-block;
+    padding: 0 20px 3px 20px;
+}
+
+.card-cliente {
+    background: var(--white);
+    padding: 10px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    border: 1px solid var(--primary-color);
+}
+
+.cliente-info-item { margin-bottom: 4px; }
+.cliente-info-item strong {
+    color: var(--black);
+    display: block;
+    font-size: 7pt;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.referencia-projeto {
+    margin-bottom: 12px;
+    padding: 6px 12px;
+    border-left: 4px solid var(--secondary-color);
+    font-size: 9pt;
+    background-color: #f9f9f9;
+}
+
+.secao-titulo {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 3px 10px;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+table { width: 100%; border-collapse: collapse; margin-bottom: 12px; }
+th {
+    background: #f1f2f6;
+    color: var(--black);
+    font-size: 8pt;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 2px solid var(--primary-color);
+}
+td { padding: 5px 8px; border-bottom: 1px solid #e0e6ed; font-size: 8.5pt; }
+
+.linha-grupo td {
+    background: #f8f9fa;
+    font-weight: bold;
+    color: var(--black);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.quadro-investimento {
+    background-color: #f8f9fa;
+    border: 2px solid var(--primary-color);
+    padding: 8px 12px;
+    text-align: right;
+    margin-bottom: 15px;
+    page-break-inside: avoid;
+}
+.investimento-label { font-size: 9pt; font-weight: bold; color: var(--black); }
+.investimento-valor { font-size: 15pt; font-weight: bold; color: var(--primary-color); margin: 1px 0; }
+.investimento-extenso { font-size: 8pt; font-style: italic; color: var(--text-muted); }
+
+/* BLOCO DE FECHAMENTO COM GRADE */
+.bloco-fechamento { page-break-inside: avoid; margin-top: 10px; }
+
+.grade-secoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.lista-itens {
+    list-style: none;
+    padding-left: 15px; /* Identação solicitada */
+    margin-bottom: 10px;
+}
+.lista-itens li {
+    margin-bottom: 3px;
+    padding-left: 12px;
+    position: relative;
+    font-size: 8pt;
+}
+.lista-itens li::before {
+    content: "▪";
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
+.assinaturas-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.assinatura-box { width: 40%; }
+.signature-img { max-height: 100px; margin-bottom: 5px; }
+.assinatura-linha { border-top: 1.5px solid var(--primary-color); margin: 0 auto 5px auto; width: 90%; }
+.assinatura-nome { font-weight: bold; font-size: 9pt; color: var(--black); }
+.assinatura-cargo { font-size: 8pt; color: var(--black); }
+
+footer {
+    position: running(footer);
+    border-top: 1.5px solid var(--primary-color);
+    padding-top: 8px;
+    font-size: 7.5pt;
+    color: var(--black);
+    text-align: center;
+}
+
+.rodape-empresa { color: var(--primary-color); font-weight: bold; font-size: 8pt; }
+.separador { color: #cccccc; margin: 0 8px; }

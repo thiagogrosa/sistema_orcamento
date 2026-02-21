@@ -1,0 +1,109 @@
+{
+  "project_id": "1212920325558530",
+  "project_name": "Teste MCP",
+  "sections": [
+    {
+      "name": "Entrada",
+      "description": "Demandas novas aguardando triagem",
+      "order": 1
+    },
+    {
+      "name": "Em Triagem",
+      "description": "Avaliando viabilidade e prioridade",
+      "order": 2
+    },
+    {
+      "name": "Fila de Trabalho",
+      "description": "Aprovado para elaboracao, aguardando",
+      "order": 3
+    },
+    {
+      "name": "Em Elaboracao",
+      "description": "Orcamento sendo feito",
+      "order": 4
+    },
+    {
+      "name": "Revisao/Aprovacao",
+      "description": "Aguardando aprovacao interna",
+      "order": 5
+    },
+    {
+      "name": "Enviado",
+      "description": "Orcamento enviado ao cliente",
+      "order": 6
+    },
+    {
+      "name": "Em Negociacao",
+      "description": "Cliente pediu ajustes/desconto",
+      "order": 7
+    },
+    {
+      "name": "Fechado",
+      "description": "Orcamento aprovado/virou contrato",
+      "order": 8
+    },
+    {
+      "name": "Perdido",
+      "description": "Nao fechou",
+      "order": 9
+    }
+  ],
+  "tags": [
+    {
+      "name": "instalacao",
+      "color": "blue"
+    },
+    {
+      "name": "manutencao",
+      "color": "green"
+    },
+    {
+      "name": "projeto",
+      "color": "purple"
+    },
+    {
+      "name": "licitacao",
+      "color": "red"
+    },
+    {
+      "name": "pequeno",
+      "color": "light-blue"
+    },
+    {
+      "name": "medio",
+      "color": "yellow"
+    },
+    {
+      "name": "grande",
+      "color": "orange"
+    },
+    {
+      "name": "urgente",
+      "color": "red"
+    },
+    {
+      "name": "cliente-estrategico",
+      "color": "pink"
+    }
+  ],
+  "example_tasks": [
+    {
+      "name": "[INSTALACAO] Empresa ABC - Belo Horizonte",
+      "section": "Entrada",
+      "tags": ["instalacao", "medio"],
+      "notes": "DADOS DO ORCAMENTO\n\nCliente: Empresa ABC\nContato: Joao Silva\nTelefone: (31) 99999-8888\nEmail: joao@empresaabc.com.br\nLocal: Belo Horizonte - MG\nPrazo do cliente: 2025-02-15\n\n---\n\nDETALHES DA DEMANDA\nInstalacao de split 18.000 BTUs em sala de reunioes\n\n---\n\nORIGEM: Comercial\nLICITACAO: Nao\n\n---\n\nCLASSIFICACAO\nTipo: Instalacao\nPorte: Medio"
+    },
+    {
+      "name": "[LIC][PROJETO] Prefeitura de Uberlandia - Uberlandia",
+      "section": "Entrada",
+      "tags": ["projeto", "licitacao", "grande", "urgente"],
+      "notes": "DADOS DO ORCAMENTO\n\nCliente: Prefeitura de Uberlandia\nContato: Departamento de Compras\nLocal: Uberlandia - MG\nPrazo do cliente: 2025-02-28\n\n---\n\nDETALHES DA DEMANDA\nProjeto de climatizacao para edificio publico\n\n---\n\nORIGEM: Licitacao\nLICITACAO: Sim - Pregao 045/2025\n\n---\n\nCLASSIFICACAO\nTipo: Projeto\nPorte: Grande"
+    },
+    {
+      "name": "[MANUTENCAO] Condominio XYZ - Sao Paulo",
+      "section": "Entrada",
+      "tags": ["manutencao", "pequeno"],
+      "notes": "DADOS DO ORCAMENTO\n\nCliente: Condominio XYZ\nContato: Sindico - Maria\nTelefone: (11) 98888-7777\nEmail: sindico@condxyz.com.br\nLocal: Sao Paulo - SP\nPrazo do cliente: 2025-02-10\n\n---\n\nDETALHES DA DEMANDA\nManutencao preventiva em 5 equipamentos split\n\n---\n\nORIGEM: Cliente direto\nLICITACAO: Nao\n\n---\n\nCLASSIFICACAO\nTipo: Manutencao\nPorte: Pequeno"
+    }
+  ]
+}

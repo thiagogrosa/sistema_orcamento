@@ -1,0 +1,17 @@
+# Planilha de Custos HVAC - dependencias do projeto
+# Arquivo unico: runtime + testes (modelo simples para onboarding)
+
+# Core - geracao de planilhas
+openpyxl>=3.1.0
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Qualidade/testes
+pytest>=8.0.0
+
+# Opcional - scrapers mais avancados
+# selenium>=4.15.0
+# playwright>=1.40.0

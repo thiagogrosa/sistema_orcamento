@@ -1,0 +1,22 @@
+{
+  "demanda_id": "26_062",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Colombo Park Shopping",
+    "cnpj": null,
+    "contato_nome": "Márcio Fonseca (interno Armant)",
+    "contato_telefone": null,
+    "contato_email": "gestao.manutencao@armant.com.br",
+    "endereco": "Criciúma - SC",
+    "tipo_servico": "manutencao",
+    "detalhes": "Relatório técnico de visita técnica realizada por Vinícius no Colombo Park Shopping. Encaminhado por Márcio Fonseca (gestão manutenção).",
+    "prazo": null,
+    "porte": "medio",
+    "origem_dados": "gmail"
+  },
+  "emails_encontrados": 1,
+  "fontes": [
+    "Email de Márcio Fonseca (gestao.manutencao@armant.com.br) em 22/01/2026 - Relatório técnico visita técnica"
+  ],
+  "timestamp": "2026-02-13T10:10:00.000000"
+}

@@ -1,5 +1,11 @@
-README.md
-docs/
-gerador_propostas/
-gestao_tarefas/
-orcamento_hvac/
+*.md
+!analysis/*.md
+*.pyc
+__pycache__/
+*.Zone.Identifier
+*:Zone.Identifier
+*.xlsm
+*.png
+*.zip
+*.pdf
+*.csv

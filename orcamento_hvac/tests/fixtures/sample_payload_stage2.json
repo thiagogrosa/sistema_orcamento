@@ -1,0 +1,17 @@
+{
+  "proposal_id": "PROP-2026-0042",
+  "customer_name": "Cliente Exemplo Ltda",
+  "project_title": "Sistema VRF Escritório Centro",
+  "date": "2026-02-13",
+  "scope_summary": "Fornecimento e instalação de sistema VRF com start-up e comissionamento.",
+  "subtotal": "85000.00",
+  "taxes": "10200.00",
+  "final_price": "95200.00",
+  "notes": "Proposta válida por 15 dias.",
+  "owner": "Engenharia de Aplicação",
+  "delivery_checklist": "- Memorial descritivo\n- Cronograma\n- Plano de segurança",
+  "direct_cost": "70000.00",
+  "overhead": "8%",
+  "margin": "12%",
+  "internal_notes": "Cliente prioritário. Validar acesso de obra na semana 1."
+}

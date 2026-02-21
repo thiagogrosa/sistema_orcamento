@@ -1,0 +1,39 @@
+{
+  "razao_social": "ARMANT SOLUÇÕES EM CLIMATIZAÇÃO LTDA",
+  "nome_fantasia": "Armant",
+  "endereco": {
+    "logradouro": "Avenida Polônia, 764",
+    "bairro": "São Geraldo",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "cep": "90230-090"
+  },
+  "endereco_linha": "Avenida Polônia, 764 | Bairro São Geraldo | Porto Alegre | RS",
+  "cnpj": "13.591.585/0001-03",
+  "telefone": "(51) 3085.8050",
+  "email": "armant@armant.com.br",
+  "site": "www.armant.com.br",
+  "crea": "206773",
+  "logo_path": "templates/html/logo_armant.png",
+  "assinaturas": [
+    {
+      "nome": "Rodrigo G. Donni",
+      "cargo": "Engenheiro Mecânico",
+      "registro": "CREA-RS 131427",
+      "assinatura_img": "templates/html/assinatura_rodrigo.png"
+    },
+    {
+      "nome": "Daniel Albuquerque",
+      "cargo": "Sócio Administrador",
+      "registro": "CREA-RS 206773",
+      "assinatura_img": "templates/html/assinatura_daniel.png"
+    }
+  ],
+  "destaques": [
+    "Empresa registrada no CREA-RS 206773 - ASBRAV.",
+    "Todas as tubulações em cobre.",
+    "01 (Um) ano de garantia dos serviços de instalação.",
+    "Mais de 10.000 equipamentos instalados.",
+    "Mão de obra qualificada."
+  ]
+}

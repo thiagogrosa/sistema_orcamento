@@ -1,0 +1,224 @@
+{
+  "status": "aguardando",
+  "ultima_atualizacao": "2026-02-07T02:17:34.385616",
+  "task_atual": null,
+  "fila": [
+    {
+      "id": "TASK_001",
+      "asana": "26_038",
+      "cliente": "Semapi RS",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_002",
+      "asana": "26_041",
+      "cliente": "Zanon Advogados",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_003",
+      "asana": "26_049",
+      "cliente": "Porto Seguro - Vitória/ES",
+      "prioridade": "alta",
+      "status": "processado"
+    },
+    {
+      "id": "TASK_004",
+      "asana": "26_023",
+      "cliente": "Easy Planning CAU/SC",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_005",
+      "asana": "26_055",
+      "cliente": "Santana da Boa Vista - Portilho",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_006",
+      "asana": "26_047",
+      "cliente": "Banrisul - Morrinhos do Sul",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_007",
+      "asana": "26_043",
+      "cliente": "Banrisul - Faxinal do Soturno",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_008",
+      "asana": "25_837",
+      "cliente": "Clínica Bertol Marques",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_009",
+      "asana": "26_053",
+      "cliente": "Edifício Mondrian Boldinc",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_010",
+      "asana": "26_044",
+      "cliente": "LFDA",
+      "prioridade": "alta",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_011",
+      "asana": "26_018",
+      "cliente": "Cyrela Duo Concept",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_012",
+      "asana": "26_040",
+      "cliente": "Almeida Junior - Balneário Shopping",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_013",
+      "asana": "26_054",
+      "cliente": "Dilermando de Aguiar - Laudo",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_014",
+      "asana": "26_036",
+      "cliente": "Cassi - POA Norte",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_015",
+      "asana": "26_056",
+      "cliente": "Pacaembu - Filtros",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_016",
+      "asana": "26_058",
+      "cliente": "MSC - Turbina",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_017",
+      "asana": "26_010",
+      "cliente": "Neo BPO - PMOC",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_018",
+      "asana": "25_784",
+      "cliente": "Melnick Even PDV",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_019",
+      "asana": "26_008",
+      "cliente": "BRDE - PMOC",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_020",
+      "asana": "26_011",
+      "cliente": "Arezzo - Reserva Caxias/RJ",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_021",
+      "asana": "26_014",
+      "cliente": "Expansão Imóveis",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_022",
+      "asana": "26_027",
+      "cliente": "FIERGS - Bento Gonçalves",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_023",
+      "asana": "26_031",
+      "cliente": "Ambaar POA - PMOC",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_024",
+      "asana": "26_033",
+      "cliente": "Senac Penha - Condensadoras",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_025",
+      "asana": "26_006",
+      "cliente": "Krystal PROEE Mariland",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_026",
+      "asana": "25_860",
+      "cliente": "BB Abelardo Luz - SC",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_027",
+      "asana": "26_048",
+      "cliente": "CEO Instituto Olhos Marcon",
+      "prioridade": "media",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_028",
+      "asana": "varios",
+      "cliente": "Banrisul - Várias Agências",
+      "prioridade": "baixa",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_029",
+      "asana": "26_029",
+      "cliente": "TRE - Pedro Osório",
+      "prioridade": "baixa",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_030",
+      "asana": "26_060",
+      "cliente": "Porto Seguro - PMOC",
+      "prioridade": "baixa",
+      "status": "pendente"
+    },
+    {
+      "id": "TASK_031",
+      "asana": "26_062",
+      "cliente": "Colombo Park Shopping",
+      "prioridade": "baixa",
+      "status": "pendente"
+    }
+  ]
+}

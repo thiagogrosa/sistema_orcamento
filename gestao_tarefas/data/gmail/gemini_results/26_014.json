@@ -1,0 +1,39 @@
+{
+  "demanda_id": "26_014",
+  "status": "nao_encontrado",
+  "dados": {
+    "cliente": "Expansão Imóveis",
+    "cnpj": null,
+    "contato_nome": null,
+    "contato_telefone": null,
+    "contato_email": null,
+    "endereco": null,
+    "tipo_servico": null,
+    "detalhes": "Apenas notificações de movimentação do Trello encontradas. Sem detalhes técnicos, de escopo ou de contato direto do cliente.",
+    "prazo": null,
+    "porte": null,
+    "origem_dados": "gmail"
+  },
+  "emails_encontrados": 3,
+  "fontes": [
+    {
+      "data": "2026-02-06",
+      "assunto": "Trello: Thiago Rosa moveu o cartão 26/014 EXPANSÃO IMÓVEIS",
+      "de": "Trello",
+      "resumo": "Notificação de movimentação de cartão no Trello."
+    },
+    {
+      "data": "2026-01-09",
+      "assunto": "Trello: Pablo Cuervo adicionou você ao cartão 26/014 EXPANSÃO IMÓVEIS",
+      "de": "Trello",
+      "resumo": "Notificação de inclusão no cartão do Trello."
+    },
+    {
+      "data": "2026-02-06",
+      "assunto": "Trello: Thiago Rosa moveu o cartão 26/015 EXPANSÃO IMÓVEIS",
+      "de": "Trello",
+      "resumo": "Notificação de movimentação de demanda relacionada (26/015)."
+    }
+  ],
+  "timestamp": "2026-02-13T10:02:42.543160"
+}

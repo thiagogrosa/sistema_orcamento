@@ -1,0 +1,24 @@
+{
+  "demanda_id": "26_054",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Banco do Estado do Rio Grande do Sul S.A. (Agência Dilermando de Aguiar)",
+    "cnpj": "92.702.067/0620-35",
+    "contato_nome": "Eduardo Dorneles",
+    "contato_telefone": null,
+    "contato_email": "Eduardo_Dorneles@banrisul.com.br",
+    "endereco": "Avenida Rocha Vieira, 620, Centro, Dilermando de Aguiar - RS, CEP: 97180-000",
+    "tipo_servico": "manutencao",
+    "detalhes": "Emissão de Laudo Técnico Condenatório para equipamentos de climatização da Agência Dilermando de Aguiar do Banrisul. O documento foi encaminhado para assinatura do Eng. Eduardo Dorneles.",
+    "prazo": null,
+    "porte": "pequeno",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Patrick Bitencourt (orcamentos3@armant.com.br) em 06/02/2026 sobre planilha orçamentária.",
+    "Notificações Asana (Thomas Grazioli e Edgar Kisek) sobre a tarefa 'BANRISUL - AG DILERMANDO DE AGUIAR - LAUDO CONDENATÓRIO'.",
+    "Pesquisa Google para obtenção do CNPJ e endereço da agência Banrisul em Dilermando de Aguiar."
+  ],
+  "timestamp": "2026-02-13T09:10:21.182588"
+}

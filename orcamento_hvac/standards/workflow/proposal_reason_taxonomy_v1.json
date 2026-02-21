@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "categories": {
+    "commercial": [
+      "pricing_adjustment",
+      "margin_review",
+      "discount_exception"
+    ],
+    "technical": [
+      "technical_review_needed",
+      "scope_change",
+      "dependency_blocked"
+    ],
+    "governance": [
+      "approval_denied",
+      "policy_non_compliance",
+      "risk_unacceptable"
+    ],
+    "customer": [
+      "client_requested_change",
+      "project_cancelled",
+      "budget_rejected"
+    ],
+    "closure": [
+      "closed_success",
+      "closed_lost",
+      "archived_no_action"
+    ]
+  }
+}

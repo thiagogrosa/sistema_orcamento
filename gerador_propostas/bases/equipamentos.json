@@ -1,0 +1,299 @@
+{
+  "equipamentos": {
+    "EQP_HW_9K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 9.000 BTUs",
+      "capacidade_btu": 9000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "2,5mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "3/8\"",
+        "liquido_pol": "1/4\"",
+        "comp_max_m": 15
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 1800.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_HW_12K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 12.000 BTUs",
+      "capacidade_btu": 12000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "2,5mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "3/8\"",
+        "liquido_pol": "1/4\"",
+        "comp_max_m": 20
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 2200.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_HW_18K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 18.000 BTUs",
+      "capacidade_btu": 18000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "4mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "5/8\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 25
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 3200.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_HW_22K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 22.000 BTUs",
+      "capacidade_btu": 22000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "4mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "5/8\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 25
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 3800.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_HW_24K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 24.000 BTUs",
+      "capacidade_btu": 24000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "4mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "5/8\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 25
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 4200.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_HW_30K": {
+      "categoria": "Split",
+      "tipo": "Hi-Wall",
+      "descricao": "Split Hi-Wall Inverter 30.000 BTUs",
+      "capacidade_btu": 30000,
+      "tecnologia": "Inverter",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "6mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "5/8\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 30
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 5500.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_PT_36K": {
+      "categoria": "Split",
+      "tipo": "Piso-Teto",
+      "descricao": "Split Piso-Teto 36.000 BTUs",
+      "capacidade_btu": 36000,
+      "tecnologia": "On-Off",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Mono",
+        "alimentacao": "6mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "3/4\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 30
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 7200.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_PT_48K": {
+      "categoria": "Split",
+      "tipo": "Piso-Teto",
+      "descricao": "Split Piso-Teto 48.000 BTUs",
+      "capacidade_btu": 48000,
+      "tecnologia": "On-Off",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Tri",
+        "alimentacao": "6mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "3/4\"",
+        "liquido_pol": "3/8\"",
+        "comp_max_m": 40
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 9500.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_PT_60K": {
+      "categoria": "Split",
+      "tipo": "Piso-Teto",
+      "descricao": "Split Piso-Teto 60.000 BTUs",
+      "capacidade_btu": 60000,
+      "tecnologia": "On-Off",
+      "ciclo": "Frio",
+      "eletrico": {
+        "tensao_fase": "220V Tri",
+        "alimentacao": "10mm2",
+        "comando": "5x1,0mm2"
+      },
+      "tubulacao": {
+        "gas_pol": "7/8\"",
+        "liquido_pol": "1/2\"",
+        "comp_max_m": 50
+      },
+      "comercial": {
+        "unidade": "UN",
+        "preco": 12000.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_BOMB_P": {
+      "categoria": "Bomba Dreno",
+      "tipo": "Mini",
+      "descricao": "Bomba dreno mini (ate 12.000 BTUs)",
+      "capacidade_btu": 0,
+      "tecnologia": "-",
+      "ciclo": "-",
+      "comercial": {
+        "unidade": "UN",
+        "preco": 320.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_BOMB_M": {
+      "categoria": "Bomba Dreno",
+      "tipo": "Media",
+      "descricao": "Bomba dreno media (ate 36.000 BTUs)",
+      "capacidade_btu": 0,
+      "tecnologia": "-",
+      "ciclo": "-",
+      "comercial": {
+        "unidade": "UN",
+        "preco": 480.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    },
+    "EQP_BOMB_G": {
+      "categoria": "Bomba Dreno",
+      "tipo": "Grande",
+      "descricao": "Bomba dreno grande (ate 60.000 BTUs)",
+      "capacidade_btu": 0,
+      "tecnologia": "-",
+      "ciclo": "-",
+      "comercial": {
+        "unidade": "UN",
+        "preco": 650.00,
+        "vendedor": ""
+      },
+      "data_atualizacao": "2025-12-30",
+      "validade_dias": 30
+    }
+  },
+  "inferencias": {
+    "tubulacao_por_capacidade": {
+      "ate_12000": {"gas": "3/8\"", "liquido": "1/4\""},
+      "ate_22000": {"gas": "5/8\"", "liquido": "3/8\""},
+      "ate_30000": {"gas": "5/8\"", "liquido": "3/8\""},
+      "ate_48000": {"gas": "3/4\"", "liquido": "3/8\""},
+      "acima_48000": {"gas": "7/8\"", "liquido": "1/2\""}
+    },
+    "alimentacao_por_capacidade": {
+      "ate_12000": "2,5mm2",
+      "ate_24000": "4mm2",
+      "ate_36000_mono": "6mm2",
+      "ate_36000_tri": "4mm2",
+      "acima_36000_mono": "10mm2",
+      "acima_36000_tri": "6mm2"
+    }
+  },
+  "metadata": {
+    "versao": "1.0",
+    "origem": "imported_bases/equipamentos.py",
+    "data_conversao": "2026-01-02",
+    "total_itens": 12,
+    "categorias": ["Split", "Bomba Dreno"],
+    "tipos": ["Hi-Wall", "Piso-Teto", "Mini", "Media", "Grande"]
+  }
+}

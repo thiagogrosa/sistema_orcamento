@@ -1,0 +1,33 @@
+{
+  "demanda_id": "26_006",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "Pró Engenharia S.S. Ltda (PROEE)",
+    "cnpj": "93.303.497/0001-31",
+    "contato_nome": "Adriana Kohl",
+    "contato_telefone": "(51) 3330-2211",
+    "contato_email": "adriana@proee.com.br",
+    "endereco": "Rua 24 de Outubro, 1440 - sala 1002 - Auxiliadora, Porto Alegre - RS, 90510-003",
+    "tipo_servico": "instalacao",
+    "detalhes": "Climatização e escada pressurizada - Empreendimento Mariland (Krystal)",
+    "prazo": "16/01/2026",
+    "porte": "medio",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    {
+      "data": "2026-01-19",
+      "assunto": "26/006 PROEE KRYSTAL MARILAND",
+      "de": "orcamentos2@armant.com.br",
+      "resumo": "Envio da proposta comercial conforme solicitado pela Engª Adriana."
+    },
+    {
+      "data": "2026-01-14",
+      "assunto": "RE: Cotação de climatização e escada pressurizada - Empreendimento Mariland - Pró Engenharia",
+      "de": "adriana@proee.com.br",
+      "resumo": "Cobrança do envio da proposta até sexta-feira."
+    }
+  ],
+  "timestamp": "2026-02-13T09:56:27.264231"
+}

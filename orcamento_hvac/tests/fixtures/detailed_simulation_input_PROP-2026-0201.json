@@ -1,0 +1,43 @@
+{
+  "proposal_id": "PROP-2026-0201",
+  "customer": {
+    "name": "Hospital Vida Sul",
+    "cnpj": "45.678.901/0001-22",
+    "contact": "Fernanda Rocha",
+    "email": "fernanda.rocha@hvsul.com.br",
+    "phone": "51 99988-7766"
+  },
+  "project": {
+    "title": "Expansão de Climatização - Bloco C e UTI",
+    "location": "Porto Alegre/RS",
+    "objective": "Aumentar capacidade térmica e redundância para áreas críticas.",
+    "deadline_days": 28
+  },
+  "materials": [
+    {"code": "CH-180TR", "description": "Chiller Scroll 180TR", "unit": "un", "qty": 1, "unit_cost": 285000.0},
+    {"code": "BOM-ALT-VAZ", "description": "Bomba de água gelada alta vazão", "unit": "un", "qty": 2, "unit_cost": 18500.0},
+    {"code": "TUB-ACO-4", "description": "Tubulação aço carbono 4\"", "unit": "m", "qty": 180, "unit_cost": 320.0},
+    {"code": "ISO-TERM-4", "description": "Isolamento térmico elastomérico 4\"", "unit": "m", "qty": 180, "unit_cost": 58.0},
+    {"code": "PAINEL-CCM", "description": "Painel elétrico CCM dedicado", "unit": "un", "qty": 1, "unit_cost": 26500.0},
+    {"code": "AUT-BMS", "description": "Módulo integração BMS", "unit": "un", "qty": 1, "unit_cost": 16200.0}
+  ],
+  "services": [
+    {"id": "SRV-ENG", "description": "Engenharia executiva e compatibilização", "unit": "h", "qty": 52, "unit_price": 190.0},
+    {"id": "SRV-INST", "description": "Instalação mecânica e elétrica", "unit": "h", "qty": 360, "unit_price": 135.0},
+    {"id": "SRV-COM", "description": "Comissionamento e start-up", "unit": "h", "qty": 64, "unit_price": 210.0},
+    {"id": "SRV-TRE", "description": "Treinamento operacional equipe hospital", "unit": "h", "qty": 12, "unit_price": 180.0}
+  ],
+  "commercial": {
+    "tax_pct": 9.5,
+    "overhead_pct": 7.0,
+    "margin_pct": 12.0,
+    "payment_terms": "35% pedido, 45% entrega de equipamentos, 20% aceite final",
+    "warranty": "12 meses para serviços e start-up",
+    "validity_days": 15
+  },
+  "exclusions": [
+    "Obras civis estruturais",
+    "Adequações de infraestrutura elétrica externa ao escopo",
+    "Taxas/licenças de órgãos públicos"
+  ]
+}

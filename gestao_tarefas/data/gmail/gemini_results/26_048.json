@@ -1,0 +1,25 @@
+{
+  "demanda_id": "26_048",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "CEO Clinica Especializada em Oftalmologia LTDA (Instituto de Olhos Marcon)",
+    "cnpj": "04.539.084/0001-97",
+    "contato_nome": "Isabel Leote",
+    "contato_telefone": "51 33285164",
+    "contato_email": "adm@institutomarcon.com.br",
+    "endereco": "Av Dr Nilo Pecanha 2421, Chácara das Pedras, CEP 91330-001, Porto Alegre - RS",
+    "tipo_servico": "manutencao",
+    "detalhes": "Manutenção preventiva e troca de filtros em 04 equipamentos. Serviço autorizado pela cliente Isabel Leote em 28/01/2026.",
+    "prazo": "28/01/2026 (Data de autorização)",
+    "porte": "pequeno",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Thiago Macari (orcamentos5@armant.com.br) enviando proposta em 27/01/2026",
+    "Email de Isabel Leote (adm@institutomarcon.com.br) autorizando serviço em 28/01/2026",
+    "Email de Thamiris Moraes Marques (operacional@armant.com.br) solicitando agendamento em 30/01/2026",
+    "Pesquisa Google para confirmação de CNPJ e Razão Social completa"
+  ],
+  "timestamp": "2026-02-13T09:24:03.378752"
+}

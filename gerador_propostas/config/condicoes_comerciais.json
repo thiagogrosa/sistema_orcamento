@@ -1,0 +1,20 @@
+{
+  "default": {
+    "validade_dias": 10,
+    "prazo_execucao": "A combinar.",
+    "nota_prazo": "Devido a alta demanda, o prazo para atendimentos esta maior do que o normal.",
+    "forma_pagamento": "Entrada de 40% e saldo na conclusao dos servicos.",
+    "garantia": "01 (Um) ano de garantia dos servicos de instalacao."
+  },
+  "por_tipo_cliente": {
+    "PRIVADO-PJ": {},
+    "PRIVADO-PF": {
+      "forma_pagamento": "50% de entrada e 50% na conclusao dos servicos."
+    },
+    "GOVERNO": {
+      "validade_dias": 60,
+      "forma_pagamento": "Conforme edital.",
+      "prazo_execucao": "Conforme edital."
+    }
+  }
+}

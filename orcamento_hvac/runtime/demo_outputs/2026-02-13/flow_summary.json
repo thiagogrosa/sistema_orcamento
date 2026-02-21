@@ -1,0 +1,106 @@
+{
+  "examples": [
+    {
+      "proposal_id": "PROP-2026-0101",
+      "customer": "Condomínio Aurora",
+      "final_price": 265004.4,
+      "files": [
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0101/client_proposal.md",
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0101/execution_package.md",
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0101/pricing_output.json"
+      ]
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "customer": "Hospital Vida Sul",
+      "final_price": 571648.0,
+      "files": [
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0102/client_proposal.md",
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0102/execution_package.md",
+        "runtime/demo_outputs/2026-02-13/PROP-2026-0102/pricing_output.json"
+      ]
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "proposal_id": "PROP-2026-0101",
+      "from_status": "draft",
+      "to_status": "review",
+      "reason_code": "technical_review_needed"
+    },
+    {
+      "proposal_id": "PROP-2026-0101",
+      "from_status": "review",
+      "to_status": "priced",
+      "reason_code": "pricing_adjustment"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "from_status": "draft",
+      "to_status": "review",
+      "reason_code": "technical_review_needed"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "from_status": "review",
+      "to_status": "priced",
+      "reason_code": "pricing_adjustment"
+    }
+  ],
+  "asana_sync_events": [
+    {
+      "proposal_id": "PROP-2026-0101",
+      "from_status": "draft",
+      "to_status": "review",
+      "reason_code": "technical_review_needed"
+    },
+    {
+      "proposal_id": "PROP-2026-0101",
+      "from_status": "review",
+      "to_status": "priced",
+      "reason_code": "pricing_adjustment"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "from_status": "draft",
+      "to_status": "review",
+      "reason_code": "technical_review_needed"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "from_status": "review",
+      "to_status": "priced",
+      "reason_code": "pricing_adjustment"
+    }
+  ],
+  "intake_records": [
+    {
+      "proposal_id": "PROP-2026-0101",
+      "customer": "Condomínio Aurora",
+      "source_type": "asana",
+      "payload_type": "task",
+      "payload_ref": "task-0101"
+    },
+    {
+      "proposal_id": "PROP-2026-0101",
+      "customer": "Condomínio Aurora",
+      "source_type": "drive",
+      "payload_type": "file",
+      "payload_ref": "file-0101"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "customer": "Hospital Vida Sul",
+      "source_type": "asana",
+      "payload_type": "task",
+      "payload_ref": "task-0102"
+    },
+    {
+      "proposal_id": "PROP-2026-0102",
+      "customer": "Hospital Vida Sul",
+      "source_type": "drive",
+      "payload_type": "file",
+      "payload_ref": "file-0102"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "statuses": [
+    "draft",
+    "review",
+    "priced",
+    "approval_pending",
+    "approved",
+    "rejected",
+    "sent",
+    "won",
+    "lost",
+    "archived"
+  ],
+  "allowed_transitions": {
+    "draft": ["review", "archived"],
+    "review": ["priced", "draft", "archived"],
+    "priced": ["approval_pending", "review", "archived"],
+    "approval_pending": ["approved", "rejected", "priced"],
+    "approved": ["sent", "archived"],
+    "rejected": ["review", "archived"],
+    "sent": ["won", "lost", "archived"],
+    "won": ["archived"],
+    "lost": ["archived"],
+    "archived": []
+  },
+  "reason_codes": [
+    "client_requested_change",
+    "pricing_adjustment",
+    "technical_review_needed",
+    "approval_denied",
+    "project_cancelled",
+    "closed_success",
+    "closed_lost"
+  ]
+}

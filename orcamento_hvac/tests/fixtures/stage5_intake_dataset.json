@@ -1,0 +1,20 @@
+[
+  {
+    "proposal_id": "PROP-2026-0042",
+    "customer": "Cliente Exemplo Ltda",
+    "source_type": "asana",
+    "payload_ref": "120900001"
+  },
+  {
+    "proposal_id": "PROP-2026-0042",
+    "customer": "Cliente Exemplo Ltda",
+    "source_type": "drive",
+    "payload_ref": "1ABCDriveFile"
+  },
+  {
+    "proposal_id": "PROP-2026-0099",
+    "customer": "Outro Cliente SA",
+    "source_type": "email",
+    "payload_ref": "msg-991"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "prepared_data": {
+    "output_file": "runtime/integration/dados_preparados_26_999.md",
+    "reducao_percentual": -5.681818181818182,
+    "metadados": {
+      "cnpj": [
+        "12.345.678/0001-90"
+      ],
+      "cpf": [],
+      "telefones": [
+        "(11) 98765-4321"
+      ],
+      "emails": [
+        "joao.silva@empresaxyz.com.br",
+        "orcamentos2@armant.com.br"
+      ],
+      "ceps": [
+        "01234-567"
+      ],
+      "datas": [
+        "15/02/2026",
+        "25/01/2026"
+      ],
+      "valores": [],
+      "urls": []
+    }
+  },
+  "asana": {
+    "task_id": "f506ef7e-25b2-47",
+    "project_id": "1212920325558530",
+    "url": "https://app.asana.com/0/1212920325558530/f506ef7e-25b2-47"
+  },
+  "drive_sync": {
+    "pasta_id": "26_999",
+    "task_gid": "f506ef7e-25b2-47",
+    "pdfs_encontrados": 0,
+    "pdfs_anexados": 0,
+    "erros": []
+  }
+}

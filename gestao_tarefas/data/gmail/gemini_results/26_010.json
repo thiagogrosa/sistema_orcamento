@@ -1,0 +1,24 @@
+{
+  "demanda_id": "26_010",
+  "status": "encontrado",
+  "dados": {
+    "cliente": "NEOBPO Serviços de Processos de Negócios e Tecnologia S.A.",
+    "cnpj": "24.765.823/0001-76",
+    "contato_nome": "Everton Fernando de Oliveira",
+    "contato_telefone": "(11) 99430-6062",
+    "contato_email": "everton.oliveira@neohype.co",
+    "endereco": "Rua Pais Lemes, 524, 14º andar, Pinheiros, São Paulo - SP, 05407-003",
+    "tipo_servico": "manutencao",
+    "detalhes": "Renovação de contrato de manutenção (PMOC) para múltiplos sites da Neobpo; atualização da proposta anterior 992/2022-R00.",
+    "prazo": "Janeiro/2026",
+    "porte": "grande",
+    "origem_dados": "ambos"
+  },
+  "emails_encontrados": 5,
+  "fontes": [
+    "Email de Everton Oliveira (everton.oliveira@neohype.co) em 07/01/2026 solicitando cotação PMOC 2026.",
+    "Histórico de emails mencionando proposta 992/2022-R00 e planilha de equipamentos dos sites.",
+    "Pesquisa Google confirmando Razão Social, CNPJ e endereço da sede em São Paulo/SP."
+  ],
+  "timestamp": "2026-02-13T09:15:01.936304"
+}

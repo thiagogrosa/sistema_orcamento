@@ -1,0 +1,25 @@
+{
+  "bdi": {
+    "MAT": {
+      "descricao": "Materiais",
+      "percentual": 0.60
+    },
+    "MO": {
+      "descricao": "Mao de Obra",
+      "percentual": 1.23
+    },
+    "FER": {
+      "descricao": "Ferramentas",
+      "percentual": 0.60
+    },
+    "EQP": {
+      "descricao": "Equipamentos",
+      "percentual": 0.50
+    }
+  },
+  "metadata": {
+    "versao": "2.1",
+    "data_atualizacao": "2026-01-07",
+    "nota": "BDI por tipo de insumo. Formula: preco_venda = custo × (1 + percentual)"
+  }
+}

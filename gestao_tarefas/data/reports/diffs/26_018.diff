@@ -1,0 +1,88 @@
+--- data/reports/diffs/26_018_before.md	2026-02-07 14:02:10
++++ data/reports/diffs/26_018_proposta.md	2026-02-07 14:02:10
+@@ -1,34 +1,66 @@
++═══════════════════════════════════════════════════════
++ORCAMENTO 26_018 - CYRELA DUO CONCEPT
++═══════════════════════════════════════════════════════
++
+ DADOS DO ORCAMENTO
++-------------------
+ 
+-Cliente: Cyrela Goldsztein
+-CNPJ: 08.074.750/0003-81
+-Contato: Emilly Martins Fagundes
+-Telefone: (a definir)
+-Email: Emilly.Fagundes@cyrela.com.br
+-Endereco: Rua Mostardeiro, 800, 4º andar, bairro Moinhos de Vento, Porto Alegre, RS
+-Local do Servico: Edifício Duo Concept - Porto Alegre/RS
++Cliente: Cyrela - Duo Concept (Consulado Italiano)
++CNPJ para cotacao de maquinas: 14.750.744/0003-08
++Contato principal: Andressa Petry Costa
++Email principal: Andressa.Petry@cyrela.com.br
++Contato adicional: Emilly Martins Fagundes
++Email adicional: Emilly.Fagundes@cyrela.com.br
++Endereco de referencia: Rua Mostardeiro, 800, 4º andar, Moinhos de Vento, Porto Alegre/RS
++Local do servico: Edificio Duo Concept - Porto Alegre/RS
+ 
+----
+-
+ DETALHES DA DEMANDA
++-------------------
+ 
+-Sistema de climatização e ventilação VRF para o empreendimento Duo Concept.
++Tipo servico: Instalacao (VRF - substituicao parcial)
++Escopo pos-visita tecnica:
++- Substituicao dos equipamentos VRF Hitachi existentes
++- Sistema atual com 03 evaporadoras cassete
++  - 02 unidades atendem a recepcao
++  - 01 unidade atende a sala da manutencao
++- Manter o restante do sistema original
++- Equipamentos atuais condenados pela empresa mantenedora
++- Necessaria torre de andaimes para trabalho a 4,5m na recepcao
+ 
+----
++Premissas informadas pela Cyrela:
++- Servicos devem considerar execucao em horario noturno
++- Cyrela fornece aparelhos, pontos eletricos e drenos
++- Demais itens (grelhas, dutos etc.) devem constar na proposta
+ 
+-ORIGEM: Engenharia
+-LICITACAO: Não
++ORIGEM
++------
+ 
+----
++Solicitante externo principal: Andressa Petry Costa (Cyrela)
++Solicitantes/contatos relacionados: Emilly Martins Fagundes, Jaqueline Cardoso, Maria Silveira
++Repasse interno pos-visita: Julio Cesar da Silva Pinheiro
++Participantes da visita tecnica: Daniel Albuquerque e Marih Santtos (Armant)
+ 
+ CLASSIFICACAO
+-Tipo: Instalação (VRF)
++-------------
++
++Licitacao: Nao
++Tipo: Instalacao (VRF)
+ Porte: Grande
+ 
+----
++HISTORICO DE EVIDENCIAS
++-----------------------
+ 
++- 28/08/2025: ajuste de escopo e agendamento da visita tecnica (thread CONSULADO - Instalacao AC)
++- 01/09/2025 16:30: visita tecnica confirmada no Duo Concept
++- 13/01/2026: email de Julio com escopo pos-visita (substituicao de 3 evaporadoras)
++- 03/02/2026: email CYRELA - DUO CONCEPT - Nº 4502618047 (fluxo de aprovacao/faturamento)
++
+ ARQUIVOS
+-G:\Drives compartilhados\02Orcamentos\2026\26_018_EDIFICIO_DUO_CONCEPT_CYRELA
++--------
+ 
+----
+-✅ Atualizado em 05/02/2026 via pesquisa Gmail (Gemini CLI)
++Pasta Drive: G:\Drives compartilhados\02Orcamentos\2026\26_018_EDIFICIO_DUO_CONCEPT_CYRELA
++
++STATUS
++------
++
++Status: Em elaboracao com escopo tecnico validado por visita

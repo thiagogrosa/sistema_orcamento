@@ -1,0 +1,499 @@
+{
+  "projeto": "Instalacao de Ar-Condicionado",
+  "cliente": "Grupo Panvel Farmacias",
+  "tipo_cliente": "PRIVADO-PJ",
+  "data_orcamento": "2025-12-18",
+  "validade_dias": 10,
+  "dados_cliente": {
+    "razao_social": "Grupo Panvel Farmacias",
+    "cnpj": "92.665.611/0322-90",
+    "endereco": "Av. Industrial Belgraf, 865 - Bairro Industrial, Eldorado do Sul - RS, 92990-000",
+    "contato_nome": "Paulo Ficks",
+    "contato_email": "pficks@grupopanvel.com.br",
+    "contato_telefone": "51 3481-9885"
+  },
+  "referencia": "Instalacao de Ar-Condicionado",
+  "itens_precificados": [
+    {
+      "id": 1,
+      "descricao": "(1) Instalacao de equipamento tipo cassete de 60.000 BTU/h, contemplando linhas frigorifenas ate 40m de acordo com o modelo da maquina, isolacao termica, mangueira cristal para dreno, vacuo, pressurizacao do sistema e equalizacao das pressoes com fluido refrigerante.",
+      "composicao": "INST-CASSETE-60K",
+      "quantidade": 1,
+      "unidade": "pc",
+      "tipo_servico": "instalacao-completa",
+      "materiais": [
+        {
+          "codigo": "TUB-CU-3/8",
+          "descricao": "Tubo cobre 3/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 45.0,
+          "custo": 1800.0
+        },
+        {
+          "codigo": "TUB-CU-5/8",
+          "descricao": "Tubo cobre 5/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 65.0,
+          "custo": 2600.0,
+          "fornecedor_referencia": "Cobre Brasil"
+        },
+        {
+          "codigo": "ISO-ELASTOMERICO",
+          "descricao": "Isolamento elastomerico",
+          "quantidade": 80,
+          "unidade": "m",
+          "preco_unitario": 12.0,
+          "custo": 960.0
+        },
+        {
+          "codigo": "MANG-CRISTAL",
+          "descricao": "Mangueira cristal dreno",
+          "quantidade": 20,
+          "unidade": "m",
+          "preco_unitario": 8.0,
+          "custo": 160.0
+        },
+        {
+          "codigo": "GAS-R410A",
+          "descricao": "Gas refrigerante R410A",
+          "quantidade": 3,
+          "unidade": "kg",
+          "preco_unitario": 180.0,
+          "custo": 540.0,
+          "fornecedor_referencia": "Refrigas"
+        },
+        {
+          "codigo": "SUPORTE-CASSETE",
+          "descricao": "Suporte para cassete",
+          "quantidade": 1,
+          "unidade": "un",
+          "preco_unitario": 250.0,
+          "custo": 250.0
+        }
+      ],
+      "mao_de_obra": [
+        {
+          "codigo": "MO-TECNICO",
+          "descricao": "Tecnico HVAC",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 85.0,
+          "custo": 1360.0
+        },
+        {
+          "codigo": "MO-AJUDANTE",
+          "descricao": "Ajudante",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 45.0,
+          "custo": 720.0
+        }
+      ],
+      "ferramentas": [
+        {
+          "codigo": "FER-VACUOMETRO",
+          "descricao": "Vacuometro digital",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 15.0,
+          "custo": 60.0
+        },
+        {
+          "codigo": "FER-MANIFOLD",
+          "descricao": "Manifold R410A",
+          "quantidade": 8,
+          "unidade": "h",
+          "preco_unitario": 12.0,
+          "custo": 96.0
+        },
+        {
+          "codigo": "FER-BOMBA-VACUO",
+          "descricao": "Bomba de vacuo",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 25.0,
+          "custo": 100.0
+        }
+      ],
+      "equipamentos": [],
+      "custo_materiais": 6310.0,
+      "custo_mao_obra": 2080.0,
+      "custo_ferramentas": 256.0,
+      "custo_equipamentos": 0.0,
+      "custo_direto": 8646.0,
+      "bdi": 2451.9,
+      "preco_total": 11097.9
+    },
+    {
+      "id": 2,
+      "descricao": "(2) Instalacao de equipamento tipo cassete de 60.000 BTU/h, contemplando linhas frigorifenas ate 40m de acordo com o modelo da maquina, isolacao termica, mangueira cristal para dreno, vacuo, pressurizacao do sistema e equalizacao das pressoes com fluido refrigerante.",
+      "composicao": "INST-CASSETE-60K",
+      "quantidade": 1,
+      "unidade": "pc",
+      "tipo_servico": "instalacao-completa",
+      "materiais": [
+        {
+          "codigo": "TUB-CU-3/8",
+          "descricao": "Tubo cobre 3/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 45.0,
+          "custo": 1800.0
+        },
+        {
+          "codigo": "TUB-CU-5/8",
+          "descricao": "Tubo cobre 5/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 65.0,
+          "custo": 2600.0,
+          "fornecedor_referencia": "Cobre Brasil"
+        },
+        {
+          "codigo": "ISO-ELASTOMERICO",
+          "descricao": "Isolamento elastomerico",
+          "quantidade": 80,
+          "unidade": "m",
+          "preco_unitario": 12.0,
+          "custo": 960.0
+        },
+        {
+          "codigo": "MANG-CRISTAL",
+          "descricao": "Mangueira cristal dreno",
+          "quantidade": 20,
+          "unidade": "m",
+          "preco_unitario": 8.0,
+          "custo": 160.0
+        },
+        {
+          "codigo": "GAS-R410A",
+          "descricao": "Gas refrigerante R410A",
+          "quantidade": 3,
+          "unidade": "kg",
+          "preco_unitario": 180.0,
+          "custo": 540.0,
+          "fornecedor_referencia": "Refrigas"
+        },
+        {
+          "codigo": "SUPORTE-CASSETE",
+          "descricao": "Suporte para cassete",
+          "quantidade": 1,
+          "unidade": "un",
+          "preco_unitario": 250.0,
+          "custo": 250.0
+        }
+      ],
+      "mao_de_obra": [
+        {
+          "codigo": "MO-TECNICO",
+          "descricao": "Tecnico HVAC",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 85.0,
+          "custo": 1360.0
+        },
+        {
+          "codigo": "MO-AJUDANTE",
+          "descricao": "Ajudante",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 45.0,
+          "custo": 720.0
+        }
+      ],
+      "ferramentas": [
+        {
+          "codigo": "FER-VACUOMETRO",
+          "descricao": "Vacuometro digital",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 15.0,
+          "custo": 60.0
+        },
+        {
+          "codigo": "FER-MANIFOLD",
+          "descricao": "Manifold R410A",
+          "quantidade": 8,
+          "unidade": "h",
+          "preco_unitario": 12.0,
+          "custo": 96.0
+        },
+        {
+          "codigo": "FER-BOMBA-VACUO",
+          "descricao": "Bomba de vacuo",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 25.0,
+          "custo": 100.0
+        }
+      ],
+      "equipamentos": [],
+      "custo_materiais": 6310.0,
+      "custo_mao_obra": 2080.0,
+      "custo_ferramentas": 256.0,
+      "custo_equipamentos": 0.0,
+      "custo_direto": 8646.0,
+      "bdi": 2451.9,
+      "preco_total": 11097.9
+    },
+    {
+      "id": 3,
+      "descricao": "(3) Instalacao de equipamento tipo cassete de 60.000 BTU/h, contemplando linhas frigorifenas ate 40m de acordo com o modelo da maquina, isolacao termica, mangueira cristal para dreno, vacuo, pressurizacao do sistema e equalizacao das pressoes com fluido refrigerante.",
+      "composicao": "INST-CASSETE-60K",
+      "quantidade": 1,
+      "unidade": "pc",
+      "tipo_servico": "instalacao-completa",
+      "materiais": [
+        {
+          "codigo": "TUB-CU-3/8",
+          "descricao": "Tubo cobre 3/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 45.0,
+          "custo": 1800.0
+        },
+        {
+          "codigo": "TUB-CU-5/8",
+          "descricao": "Tubo cobre 5/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 65.0,
+          "custo": 2600.0,
+          "fornecedor_referencia": "Cobre Brasil"
+        },
+        {
+          "codigo": "ISO-ELASTOMERICO",
+          "descricao": "Isolamento elastomerico",
+          "quantidade": 80,
+          "unidade": "m",
+          "preco_unitario": 12.0,
+          "custo": 960.0
+        },
+        {
+          "codigo": "MANG-CRISTAL",
+          "descricao": "Mangueira cristal dreno",
+          "quantidade": 20,
+          "unidade": "m",
+          "preco_unitario": 8.0,
+          "custo": 160.0
+        },
+        {
+          "codigo": "GAS-R410A",
+          "descricao": "Gas refrigerante R410A",
+          "quantidade": 3,
+          "unidade": "kg",
+          "preco_unitario": 180.0,
+          "custo": 540.0,
+          "fornecedor_referencia": "Refrigas"
+        },
+        {
+          "codigo": "SUPORTE-CASSETE",
+          "descricao": "Suporte para cassete",
+          "quantidade": 1,
+          "unidade": "un",
+          "preco_unitario": 250.0,
+          "custo": 250.0
+        }
+      ],
+      "mao_de_obra": [
+        {
+          "codigo": "MO-TECNICO",
+          "descricao": "Tecnico HVAC",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 85.0,
+          "custo": 1360.0
+        },
+        {
+          "codigo": "MO-AJUDANTE",
+          "descricao": "Ajudante",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 45.0,
+          "custo": 720.0
+        }
+      ],
+      "ferramentas": [
+        {
+          "codigo": "FER-VACUOMETRO",
+          "descricao": "Vacuometro digital",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 15.0,
+          "custo": 60.0
+        },
+        {
+          "codigo": "FER-MANIFOLD",
+          "descricao": "Manifold R410A",
+          "quantidade": 8,
+          "unidade": "h",
+          "preco_unitario": 12.0,
+          "custo": 96.0
+        },
+        {
+          "codigo": "FER-BOMBA-VACUO",
+          "descricao": "Bomba de vacuo",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 25.0,
+          "custo": 100.0
+        }
+      ],
+      "equipamentos": [],
+      "custo_materiais": 6310.0,
+      "custo_mao_obra": 2080.0,
+      "custo_ferramentas": 256.0,
+      "custo_equipamentos": 0.0,
+      "custo_direto": 8646.0,
+      "bdi": 2451.9,
+      "preco_total": 11097.9
+    },
+    {
+      "id": 4,
+      "descricao": "(4) Instalacao de equipamento tipo cassete de 60.000 BTU/h, contemplando linhas frigorifenas ate 40m de acordo com o modelo da maquina, isolacao termica, mangueira cristal para dreno, vacuo, pressurizacao do sistema e equalizacao das pressoes com fluido refrigerante.",
+      "composicao": "INST-CASSETE-60K",
+      "quantidade": 1,
+      "unidade": "pc",
+      "tipo_servico": "instalacao-completa",
+      "materiais": [
+        {
+          "codigo": "TUB-CU-3/8",
+          "descricao": "Tubo cobre 3/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 45.0,
+          "custo": 1800.0
+        },
+        {
+          "codigo": "TUB-CU-5/8",
+          "descricao": "Tubo cobre 5/8\"",
+          "quantidade": 40,
+          "unidade": "m",
+          "preco_unitario": 65.0,
+          "custo": 2600.0,
+          "fornecedor_referencia": "Cobre Brasil"
+        },
+        {
+          "codigo": "ISO-ELASTOMERICO",
+          "descricao": "Isolamento elastomerico",
+          "quantidade": 80,
+          "unidade": "m",
+          "preco_unitario": 12.0,
+          "custo": 960.0
+        },
+        {
+          "codigo": "MANG-CRISTAL",
+          "descricao": "Mangueira cristal dreno",
+          "quantidade": 20,
+          "unidade": "m",
+          "preco_unitario": 8.0,
+          "custo": 160.0
+        },
+        {
+          "codigo": "GAS-R410A",
+          "descricao": "Gas refrigerante R410A",
+          "quantidade": 3,
+          "unidade": "kg",
+          "preco_unitario": 180.0,
+          "custo": 540.0,
+          "fornecedor_referencia": "Refrigas"
+        },
+        {
+          "codigo": "SUPORTE-CASSETE",
+          "descricao": "Suporte para cassete",
+          "quantidade": 1,
+          "unidade": "un",
+          "preco_unitario": 250.0,
+          "custo": 250.0
+        }
+      ],
+      "mao_de_obra": [
+        {
+          "codigo": "MO-TECNICO",
+          "descricao": "Tecnico HVAC",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 85.0,
+          "custo": 1360.0
+        },
+        {
+          "codigo": "MO-AJUDANTE",
+          "descricao": "Ajudante",
+          "quantidade": 16,
+          "unidade": "h",
+          "preco_unitario": 45.0,
+          "custo": 720.0
+        }
+      ],
+      "ferramentas": [
+        {
+          "codigo": "FER-VACUOMETRO",
+          "descricao": "Vacuometro digital",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 15.0,
+          "custo": 60.0
+        },
+        {
+          "codigo": "FER-MANIFOLD",
+          "descricao": "Manifold R410A",
+          "quantidade": 8,
+          "unidade": "h",
+          "preco_unitario": 12.0,
+          "custo": 96.0
+        },
+        {
+          "codigo": "FER-BOMBA-VACUO",
+          "descricao": "Bomba de vacuo",
+          "quantidade": 4,
+          "unidade": "h",
+          "preco_unitario": 25.0,
+          "custo": 100.0
+        }
+      ],
+      "equipamentos": [],
+      "custo_materiais": 6310.0,
+      "custo_mao_obra": 2080.0,
+      "custo_ferramentas": 256.0,
+      "custo_equipamentos": 0.0,
+      "custo_direto": 8646.0,
+      "bdi": 2451.9,
+      "preco_total": 11097.9
+    }
+  ],
+  "agrupamento": [
+    {
+      "nome": "ITENS REPLICADOS PARA TESTE",
+      "itens_ids": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "resumo_financeiro": {
+    "total_materiais": 6310.0,
+    "total_mao_obra": 2080.0,
+    "total_ferramentas": 256.0,
+    "total_equipamentos": 0.0,
+    "custo_direto": 8646.0,
+    "bdi_materiais": 2208.5,
+    "bdi_mao_obra": 832.0,
+    "bdi_ferramentas": 76.8,
+    "bdi_equipamentos": 0.0,
+    "total_bdi": 2451.9,
+    "valor_total": 44391.6
+  },
+  "alertas": [],
+  "opcoes_output": {
+    "gerar_rascunho": true,
+    "condicoes_customizadas": {
+      "forma_pagamento": "Entrada de 40% e saldo na conclus\u00e3o dos servi\u00e7os.",
+      "prazo_execucao": "10 dias \u00fateis ap\u00f3s aprova\u00e7\u00e3o.",
+      "garantia": "01 (Um) ano de garantia dos servi\u00e7os de instala\u00e7\u00e3o."
+    }
+  }
+}
